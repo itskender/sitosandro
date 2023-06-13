@@ -1,0 +1,59 @@
+<div class='my-navbar bottom-align'>
+
+    {{$works := .Site.GetPage "works"}}
+    {{$portraits := .Site.GetPage "Portraits"}}
+    {{$travels := .Site.GetPage "travels"}}
+    {{$terraferma := .Site.GetPage "terraferma"}}
+    {{$shop := .Site.GetPage "Shop"}}
+    {{$bio:= .Site.GetPage "about"}}
+    {{$archi:= .Site.GetPage "architecture"}}
+
+
+    <div class='navbarLine'>Works (2020-2022)</div>
+    {{ range $works.Pages }}
+    <a href={{.Permalink}}>
+        <div class='navbarSubLine {{ cond (eq $.Page.Title .Title) "selected" "" }}'>{{ .Title }}</div>
+    </a>
+    {{ end }}
+
+    <a href={{$portraits.Permalink}}>
+        <div class='navbarLine'>Portraits (2018-2022)</div>
+    </a>
+    <a href={{$archi.Permalink}}>
+        <div class='navbarLine'>Architecture (2018-2023)</div>
+    </a>
+
+    <a href={{$terraferma.Permalink}}>
+        <div class='navbarLine'>Terra Ferma Casa Amada (ongoing)</div>
+    </a>
+
+    <div class='navbarLine'>Travels (2019-2022)</div>
+    {{ range $travels.Pages }}
+    <a href={{.Permalink}}>
+        <div class='navbarSubLine {{ cond (eq $.Page.Title .Title) "selected" "" }}'>{{ .Title }}</div>
+    </a>
+    {{ end }}
+
+    <a href={{$shop.Permalink}}>
+        <div class='navbarLine'>SHOP</div>
+    </a>
+    <a href={{$bio.Permalink}}>
+        <div class='navbarLine'>Info/Contacts</div>
+    </a>
+
+    <div class='icons-container'>
+        <a href='mailto:info@alessandrovitali.it?subject='>
+            <div class='footer-icon'>
+                <img src="https://www.svgrepo.com/show/14477/envelope.svg" alt="Envelope free icon"
+                    title="Envelope free icon" width="25rem" height="100%">
+            </div>
+        </a>
+    
+        <a href="https://www.instagram.com/itskender/?hl=en" target="_blank">
+            <div class='footer-icon'>
+                <img src="https://www.svgrepo.com/show/123786/instagram.svg" alt="Instagram free icon"
+                    title="Instagram free icon" width="20rem" height="95%">
+            </div>
+        </a>
+    </div>
+</div>

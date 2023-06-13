@@ -1,0 +1,56 @@
++++
+Author = "Alessandro Vitali"
+Description = "About/Info"
+Name = "About"
++++
+#
+
+#### Alessandro Vitali
+**IT, 1987**  \
+Born in Rome. He is a photographer, assistant curator, and writer. 
+His major focus is the public space and its different spatial typologies, exploring subjects such as the connection between architecture and nature, the human presence within the urban environment and how individuals navigate and interact with the surrounding architecture. \
+He investigates social aspects related to the contemporary, and his practice draws on the languages of documentary photography. His most recents works examine the themes of memory, its mechanisms of transmissions, family archives, and language as a binding force within communities.
+
+He collaborated with several photographers, artists and Institutions including [Alessandro Imbriaco](http://www.alessandroimbriaco.com/news.html), Giorgio Di Noto, [ICCD](http://iccd.beniculturali.it) and [Leporello](https://leporello-books.com/) bookshop, gaining valuable experience and expanding his artistic horizons. \
+He has been the studio manager and assistant curator of Magnum Photos photographer [Paolo Pellegrin](https://www.magnumphotos.com/photographer/paolo-pellegrin/) for the last 2 and a half years.
+
+He is currently living and working in Rome as a freelance photographer. 
+
+
+
+2023 \
+**DongGang International Photo Festival** Yeongwol, KOR      _group exhibition with the project Marine Snow_   
+2022 \
+**Paolo Pellegrin. La Fragile Meraviglia** Gallerie d'Italia, Torino, IT         _producer, assistant curator_ \
+**C'è tempo per le nespole - Orti di Guerra** Museo della Guerra, Rovereto, IT        _group exhibition_ \
+**C'è tempo per le nespole - Orti di Guerra** [Danilo Montanari](https://www.danilomontanari.com/wordpress/libro/ce-tempo-per-le-nespole/) editore         _works, texts, photographs_ \
+2021 \
+**Paolo Pellegrin. L'altro** Cortona On The Move, Cortona, IT       _assistant curator_ \
+**BIENNALE ARCHITETTURA VENEZIA 2021** Venezia, IT       _Prossima Apertura_  \
+2020 \
+**WINDOWS** – a.topos gallery, Venezia, IT  _group exhibition_  
+**Hotel Britannique** –  Napoli, IT   _permanent collection_  
+**PHCCapalbio - Honorable mention** Capalbio, IT   _solo exhibition with the project Proposta_ \
+2019 \
+**LOGOS – Festa della parola** Dialoghi fotografici by FunzillaFest _speaker_  
+**Diecixdieci Photography Festival 5th Edition** - conscience, consciousness _Shortlisted, group exhibition_  
+**F4/un’idea di Fotografia**, Fondazione Francesco Fabbri, Pieve di Soligo,IT  _curated by C. Sala_\
+**Prossima Apertura** in collaboration with Orizzontale, NOEO, Alessandro Imbriaco\
+**CRATERI** in collaboration with Forza Maggiore and Istituto Beni Culturali dell’Emilia Romagna \
+2018 \
+**Atlante del Master**, MUFOCO, Cinisello Balsamo (MI), _curated by Master Iuav in Photography_ 
+
+
+
+
+
+\
+**EDUCATION**   \
+**Master in Contemporary Photography**\
+IUAV, Venice, IT 2018-2019 \
+**Master in Nanotechnologies and Nanomaterials for the Cultural Heritage - _cum laude_**    \
+UniPa, Palermo, IT 2015-2016 \
+**Master in Science and technologies for the conservation of the Cultural Heritage - _cum laude_**\
+Sapienza University, Rome, IT 2011-2014 \
+**Bachelor in Physics**    \
+Sapienza University, Rome, IT 2006-2010 
