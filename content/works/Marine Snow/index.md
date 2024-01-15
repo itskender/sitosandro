@@ -16,4 +16,4 @@ But more than anything, memory is built, constructed upon the personal, familial
 
 _Finalist @DongGang International Photo Festival 2023_ 
 
-Open Call - The Magical Unknowns
+Open Call - [The Magical Unknowns](http://dgphotofestival.com)
