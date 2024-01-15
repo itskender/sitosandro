@@ -153,6 +153,11 @@ margin-top: 0rem;
     font-weight: 1000;
     color:rgb(252, 200, 158);
 }
+
+.selec{
+    color: blue
+}
+
 .about-content{
     display: inline-block;
     font-size: 1.2rem;
