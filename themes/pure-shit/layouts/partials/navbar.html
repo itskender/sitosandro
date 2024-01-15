@@ -7,6 +7,7 @@
     {{$shop := .Site.GetPage "Shop"}}
     {{$bio:= .Site.GetPage "about"}}
     {{$archi:= .Site.GetPage "architecture"}}
+    {{$travel:= .Site.GetPage "travel"}}
 
 
     <div class='navbarLine'>Works (2020-2022)</div>
@@ -17,17 +18,21 @@
     {{ end }}
 
     <a href={{$portraits.Permalink}}>
-        <div class='navbarLine'>Portraits (2018-2023)</div>
+        <div class='navbarLine'>Portraits</div>
     </a>
     <a href={{$archi.Permalink}}>
-        <div class='navbarLine'>Architecture (2018-2023)</div>
+        <div class='navbarLine'>Architecture</div>
+    </a>
+
+    <a href={{$travel.Permalink}}>
+        <div class='navbarLine'>Travels</div>
     </a>
 
     <a href={{$terraferma.Permalink}}>
         <div class='navbarLine'>Terra Ferma Casa Amada (ongoing)</div>
     </a>
 
-    <div class='navbarLine'>Travels (2019-2022)</div>
+    <div class='navbarLine'>Travels</div>
     {{ range $travels.Pages }}
     <a href={{.Permalink}}>
         <div class='navbarSubLine {{ cond (eq $.Page.Title .Title) "selected" "" }}'>{{ .Title }}</div>
@@ -38,7 +43,7 @@
         <div class='navbarLine'>SHOP</div>
     </a>
     <a href={{$bio.Permalink}}>
-        <div class='navbarLine'>Info/Contacts</div>
+        <div class='navbarLine'>Bio & Contacts</div>
     </a>
 
     <div class='icons-container'>
