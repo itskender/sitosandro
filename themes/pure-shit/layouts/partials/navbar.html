@@ -18,14 +18,14 @@
     {{ end }}
 
     <a href={{$portraits.Permalink}}>
-        <div class='navbarLine'>Portraits</div>
+        <div class='navbarLine {{ cond (eq $.Page.Title .Title) "selected" "" }}'> Portraits</div>
     </a>
     <a href={{$archi.Permalink}}>
-        <div class='navbarLine'>Architecture</div>
+        <div class='navbarLine '>Architecture</div>
     </a>
 
     <a href={{$travel.Permalink}}>
-        <div class='navbarLine'>Travels</div>
+        <div class='navbarLine '>Travels</div>
     </a>
 
     <a href={{$terraferma.Permalink}}>
