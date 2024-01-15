@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+a {
+    text-decoration: none!important;
+}
+p{
+margin-top: 0rem;
+}
+.header{
+    color: black;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 3rem;
+    padding: 2.5rem 3rem 0.5rem;
+    width: 3rem;
+    line-height: 2.5rem;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.header-height{
+    height: 10%;
+}
+.main-height{
+    height: 80;
+}
+.body{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: visible;
+    background-color: #f6f6f6!important;
+    font-weight: lighter;  
+    fill: #f6f6f6;
+}
+.inset{
+    margin-bottom: 2rem;
+    margin:left;
+}
+.insetimg{
+    display: inline-block;
+    padding-top: 5.3rem;
+    max-height: 70rem;
+}
+
+.insetimg-m{
+    display:none;
+}
+
+.bottom-align{
+    display: block;
+    align-self: flex-end;
+}
+.my-navbar{
+    margin-top: 0rem;
+    padding-top: 4.3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+}
+.navbarLine{
+    font-size: 1.3rem;
+    color: black;
+    margin-top: 1rem;
+  text-transform: capitalize;
+}
+.navbarSubLine{
+    font-size: 1.3rem;
+    color: #454545;
+    padding-left: 0.7rem;
+}
+.main{
+    height: 100vh;
+}
+.main-landing{
+    justify-content: right;
+    padding-right: 3rem!important;
+    margin-top: 0rem;
+}
+.full-height{
+    height: 90%;
+    display: flex;
+    overflow-x: hidden;
+}
+.footer{
+    background-color: #f6f6f6;
+    color: rgb(0, 0, 0);
+    height: 100%;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    display: inline-block;
+}
+.footer-height{
+    height: 3%;
+    justify-content: right;
+    position: absolute;
+    bottom: 3rem;
+}
+.footer-icon{
+    margin: 0rem 1rem 1rem 0;
+    display: inline-block;
+    height: 100%;
+    width: 2px;
+}
+.description{
+    margin-top:0;
+    display:inline-block;
+    color: grey;
+    font-size: 1.4rem;
+    white-space: normal;
+    padding-right: 6rem;
+    max-width: 40rem;
+    font-family: Cambria, Helvetica;
+    text-align: justify;
+}
+
+.description-w{
+    margin-top:5.1rem;
+    display:inline-block;
+    color: grey;
+    font-size: 1.4rem;
+    white-space: normal;
+    padding-right: 5rem;
+    max-width: 40 rem;
+    font-family: Cambria, Helvetica;
+    text-align: left;
+}
+
+.carusel-image{
+    margin-top: 0rem;
+    display: inline-block;
+    height: 65rem;
+    padding-right: 1.5rem;
+    vertical-align: top;
+    margin-bottom: 1rem;
+}
+.carusel{
+    white-space: nowrap;
+    margin-top: 5rem;
+    margin-left: 0rem;
+    padding-left: 0rem;
+    overflow-x: scroll;
+}
+.shop-carusel{
+    margin-top:2.5rem;
+}
+.shop-carusel-image{
+    height: 50rem;
+}
+.selected{
+    font-weight: 1000;
+    color:rgb(252, 204, 166);
+}
+.about-content{
+    display: inline-block;
+    font-size: 1.2rem;
+    white-space: normal;
+    font-family: Arial, Open Sans;
+    overflow-y: scroll;
+    width:46%;
+
+}
+.shop-content{
+    display: inline-block;
+    font-size: 1.2rem;
+    white-space: normal;
+    padding-right: 6rem;
+    font-family: monospace, 'Open Sans';
+}
+.icons-container{
+    padding-top: 2rem;
+    display: grid;
+}
+
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .carusel-image-s{
+        height: 80rem;
+        padding-right: 0rem;
+        max-width: 90vh;
+        padding-left: 5rem;
+    }
+    
+    .body-s{
+        font-size: 1rem;
+        font-family: Arial, Helvetica, Sans-Serif;
+        overflow: hidden;
+        background-color: #f6f6f6!important;
+        fill: #f6f6f6;
+    }
+    .description-s{
+        display: block;
+        font-size: 2.6rem;
+        color: black;
+        white-space: normal;
+        padding-left: 5rem;
+        padding-right: 6rem;
+        font-weight: bolder;
+        min-width: 100%;
+    }
+    .header-s{
+        font-size: 5rem;
+        line-height: 4rem;
+        font-style: bold;
+    }
+    .my-navbar{
+        margin:auto;
+        padding: 6rem;
+        padding-bottom: 0rem;
+    }
+    .navbarLine{
+        font-size: 2.9rem;
+        color: black;
+        margin-top: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .navbarSubLine{
+        font-size: 3rem;
+        color: black;
+        padding-left: 3rem;
+        text-align: center;
+    }
+    .insetimg{
+        display:none;
+    }
+    .main{
+        height: 90vh;
+    }
+    .footer{
+        margin: 1rem 1rem 1rem 0;
+        display: inline-flex;
+        height: 90%;
+        padding: 1rem;
+        width: auto;
+    }
+    .about-content-m{
+        display:inline-grid;
+        margin-top: 4rem;
+        font-size: 2rem;
+        padding: 4rem;
+        overflow-y: scroll;
+        width:auto;
+    }
+
+    .shop-content{
+       margin-top: 10rem;
+        font-size: 4rem;
+        padding-right: 6rem;
+        padding-left: 5rem;
+    }
+.footer-text{
+    margin-left:3.5rem;
+    margin-top: 0rem;
+    font-size: 2rem;
+    color: grey;
+    position: relative;
+    bottom: 3rem;
+}
+
+.insetimg-m{
+    display: block;
+    margin-top: auto;
+    margin-left: 3.7rem;
+    max-height: 100;
+    width: auto;
+    overflow-y: scroll;
+    }
+
+.icons-container{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    text-align: center;
+}
+.footer-icon{
+    margin: 0rem 1rem 1rem 0;
+    display: inline-block;
+    height: 80%;
+    width: 3.5rem;
+}
+
+
+}
