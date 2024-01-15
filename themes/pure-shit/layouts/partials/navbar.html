@@ -10,7 +10,7 @@
     {{$travel:= .Site.GetPage "travel"}}
 
 
-    <div class='navbarLine'>Works (2020-2022)</div>
+    <div class='navbarLine'>Works (2020-2023)</div>
     {{ range $works.Pages }}
     <a href={{.Permalink}}>
         <div class='navbarSubLine {{ cond (eq $.Page.Title .Title) "selected" "" }}'>{{ .Title }}</div>
@@ -32,15 +32,10 @@
         <div class='navbarLine'>Terra Ferma Casa Amada (ongoing)</div>
     </a>
 
-    <div class='navbarLine'>Travels</div>
-    {{ range $travels.Pages }}
-    <a href={{.Permalink}}>
-        <div class='navbarSubLine {{ cond (eq $.Page.Title .Title) "selected" "" }}'>{{ .Title }}</div>
-    </a>
-    {{ end }}
+  
 
     <a href={{$shop.Permalink}}>
-        <div class='navbarLine'>SHOP</div>
+        <div class='navbarLine'>Shop</div>
     </a>
     <a href={{$bio.Permalink}}>
         <div class='navbarLine'>Bio & Contacts</div>
