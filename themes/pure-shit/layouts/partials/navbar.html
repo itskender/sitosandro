@@ -13,32 +13,32 @@
     <div class='navbarLine'>Works (2020-2023)</div>
     {{ range $works.Pages }}
     <a href={{.Permalink}}>
-        <div class='navbarSubLine {{ cond (eq $.Page.Title .Title) "selected" "" }}'>{{ .Title }}</div>
+        <div class='navbarSubLine {{ cond (eq $.Page.Title .Title) "sele" "" }}'>{{ .Title }}</div>
     </a>
     {{ end }}
 
     <a href={{$portraits.Permalink}}>
-        <div class='navbarLine '> Portraits</div>
+        <div class='navbarLine {{ cond (eq $.Page.Description $portraits.Description) "selected" "" }}'> Portraits</div>
     </a>
     <a href={{$archi.Permalink}}>
-        <div class='navbarLine '>Architecture</div>
+        <div class='navbarLine {{ cond (eq $.Page.Description $archi.Description) "selected" "" }}'>Architecture</div>
     </a>
 
     <a href={{$travel.Permalink}}>
-        <div class='navbarLine '>Travels</div>
+        <div class='navbarLine {{ cond (eq $.Page.Description $travel.Description) "selected" "" }}'>Travels</div>
     </a>
 
     <a href={{$terraferma.Permalink}}>
-        <div class='navbarLine'>Terra Ferma Casa Amada (ongoing)</div>
+        <div class='navbarLine {{ cond (eq $.Page.Description $terraferma.Description) "selected" "" }}'>Terra Ferma Casa Amada (ongoing)</div>
     </a>
 
   
 
     <a href={{$shop.Permalink}}>
-        <div class='navbarLine'>Shop</div>
+        <div class='navbarLine {{ cond (eq $.Page.Description $shop.Description) "select" "" }}'>Shop</div>
     </a>
     <a href={{$bio.Permalink}}>
-        <div class='navbarLine'>Bio & Contacts</div>
+        <div class='navbarLine {{ cond (eq $.Page.Description $bio.Description) "bio" "" }}'>Bio & Contacts</div>
     </a>
 
     <div class='icons-container'>

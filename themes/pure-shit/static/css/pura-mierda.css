@@ -154,6 +154,21 @@ margin-top: 0rem;
     color:rgb(252, 200, 158);
 }
 
+.sele{
+    font-weight: 1000;
+    color:rgb(255, 160, 90);
+}
+
+.select{
+    font-weight: 1000;
+    color:rgb(54, 104, 135);
+}
+
+.bio{
+    font-weight: 1000;
+    color:rgb(182, 182, 145);
+}
+
 .about-content{
     display: inline-block;
     font-size: 1.2rem;
