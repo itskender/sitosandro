@@ -33,7 +33,9 @@ margin-top: 0rem;
     background-color: #f6f6f6!important;
     font-weight: lighter;  
     fill: #f6f6f6;
+
 }
+
 .inset{
     margin-bottom: 2rem;
     margin:left;
@@ -135,14 +137,22 @@ margin-top: 0rem;
     padding-right: 1.5rem;
     vertical-align: top;
     margin-bottom: 1rem;
+    scrollbar-width: none;
 }
+
 .carusel{
     white-space: nowrap;
     margin-top: 5rem;
     margin-left: 0rem;
     padding-left: 0rem;
-    overflow-x: scroll;
+    overflow-x: auto;
+    scrollbar-width: none;
 }
+
+.carusel::-webkit-scrollbar{
+  display: none;
+}
+
 .shop-carusel{
     margin-top:2.5rem;
 }
@@ -184,6 +194,7 @@ margin-top: 0rem;
     white-space: normal;
     padding-right: 6rem;
     font-family: Arial, 'Open Sans';
+    overflow-x: hidden;
 }
 .icons-container{
     padding-top: 2rem;
@@ -197,6 +208,7 @@ margin-top: 0rem;
         padding-right: 0rem;
         max-width: 90vh;
         padding-left: 5rem;
+        scrollbar-width: none;
     }
     
     .body-s{
