@@ -11,7 +11,7 @@ Born in Rome. He is a photographer, assistant curator, and writer.
 His major focus is the public space and its different spatial typologies, exploring subjects such as the connection between architecture and nature, the human presence within the urban environment and how individuals navigate and interact with the surrounding architecture. \
 He investigates social aspects related to the contemporary, and his practice draws on the languages of documentary photography. His most recents works examine the themes of memory, its mechanisms of transmissions, family archives, and language as a binding force within communities.
 
-He collaborated with several photographers, artists and Institutions including [Alessandro Imbriaco](http://www.alessandroimbriaco.com/news.html), Giorgio Di Noto, [ICCD](http://iccd.beniculturali.it) and [Leporello](https://leporello-books.com/) bookshop, gaining valuable experience and expanding his artistic horizons. \
+He collaborated with several photographers, artists and Institutions including [Alessandro Imbriaco](http://www.alessandroimbriaco.com/news.html), [Giorgio Di Noto](http://www.giorgiodinoto.com), [ICCD](http://iccd.beniculturali.it) and [Leporello](https://leporello-books.com/) bookshop, gaining valuable experience and expanding his artistic horizons. \
 He has been the studio manager and assistant curator of Magnum Photos photographer [Paolo Pellegrin](https://www.magnumphotos.com/photographer/paolo-pellegrin/) for the last 2 and a half years.
 
 He is currently living and working in Rome as a freelance photographer. 

@@ -137,7 +137,6 @@ margin-top: 0rem;
     padding-right: 1.5rem;
     vertical-align: top;
     margin-bottom: 1rem;
-    scrollbar-width: none;
 }
 
 .carusel{
@@ -146,11 +145,7 @@ margin-top: 0rem;
     margin-left: 0rem;
     padding-left: 0rem;
     overflow-x: auto;
-    scrollbar-width: none;
-}
-
-.carusel::-webkit-scrollbar{
-  display: none;
+    scrollbar-width: thin;
 }
 
 .shop-carusel{
@@ -184,9 +179,9 @@ margin-top: 0rem;
     font-size: 1.2rem;
     white-space: normal;
     font-family: Arial, Open Sans;
-    overflow-y: scroll;
+    overflow-y: auto;
     width:46%;
-
+    scrollbar-width: none;
 }
 .shop-content{
     display: inline-block;
@@ -194,7 +189,8 @@ margin-top: 0rem;
     white-space: normal;
     padding-right: 6rem;
     font-family: Arial, 'Open Sans';
-    overflow-x: hidden;
+    overflow: auto;
+    scrollbar-width: none;
 }
 .icons-container{
     padding-top: 2rem;
@@ -272,6 +268,7 @@ margin-top: 0rem;
         padding: 4rem;
         overflow-y: scroll;
         width:auto;
+        scrollbar-width: none;
     }
 
     .shop-content{
