@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap);
+
 
 a {
     text-decoration: none!important;
@@ -12,10 +15,10 @@ margin-top: 0rem;
 }
 .header{
     color: black;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: "Bebas Neue", "Oswald", 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3rem;
     padding: 2.5rem 3rem 0.5rem;
-    width: 3rem;
+    width: 2rem;
     line-height: 2.5rem;
     letter-spacing: 2px;
     text-transform: capitalize;
@@ -28,12 +31,12 @@ margin-top: 0rem;
 }
 .body{
     font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
     overflow: visible;
     background-color: #f6f6f6!important;
     font-weight: lighter;  
     fill: #f6f6f6;
-
+    font-stretch: expanded;
 }
 
 .inset{
@@ -62,9 +65,9 @@ margin-top: 0rem;
     padding-bottom: 3rem;
 }
 .navbarLine{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: black;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
   text-transform: capitalize;
   
 }
@@ -72,6 +75,7 @@ margin-top: 0rem;
     font-size: 1.3rem;
     color: #2e2d2d;
     padding-left: 0.7rem;
+    font-stretch: expanded;
 }
 .main{
     height: 100vh;
@@ -178,7 +182,7 @@ margin-top: 0rem;
     display: inline-block;
     font-size: 1.2rem;
     white-space: normal;
-    font-family: Arial, Open Sans;
+    font-family: Helvetica, "Open Sans";
     overflow-y: auto;
     width:46%;
     scrollbar-width: none;
