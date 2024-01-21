@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
-@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 
 a {
@@ -22,6 +22,7 @@ margin-top: 0rem;
     line-height: 2.5rem;
     letter-spacing: 2px;
     text-transform: capitalize;
+    font-stretch: expanded;
 }
 .header-height{
     height: 10%;
@@ -69,12 +70,11 @@ margin-top: 0rem;
     color: black;
     margin-top: 1.2rem;
   text-transform: capitalize;
-  
 }
 .navbarSubLine{
     font-size: 1.3rem;
     color: #2e2d2d;
-    padding-left: 0.7rem;
+    padding-left: 1rem;
     font-stretch: expanded;
 }
 .main{
@@ -125,7 +125,7 @@ margin-top: 0rem;
 .description-w{
     margin-top:5.1rem;
     display:inline-block;
-    color: grey;
+    color: #696969;
     font-size: 1.4rem;
     white-space: normal;
     padding-right: 5rem;
@@ -186,6 +186,7 @@ margin-top: 0rem;
     overflow-y: auto;
     width:46%;
     scrollbar-width: none;
+    color: #696969;
 }
 .shop-content{
     display: inline-block;
@@ -195,6 +196,7 @@ margin-top: 0rem;
     font-family: Arial, 'Open Sans';
     overflow: auto;
     scrollbar-width: none;
+    color: #696969;
 }
 .icons-container{
     padding-top: 2rem;
