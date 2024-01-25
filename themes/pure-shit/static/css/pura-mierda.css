@@ -18,11 +18,10 @@ margin-top: 0rem;
     font-family: "Bebas Neue", "Oswald", 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3rem;
     padding: 2.5rem 3rem 0.5rem;
-    width: 2rem;
-    line-height: 2.5rem;
-    letter-spacing: 2px;
+    width: 4rem;
+    line-height: 2.8rem;
+    letter-spacing: 3px;
     text-transform: capitalize;
-    font-stretch: expanded;
 }
 .header-height{
     height: 10%;
@@ -37,7 +36,7 @@ margin-top: 0rem;
     background-color: #f6f6f6!important;
     font-weight: lighter;  
     fill: #f6f6f6;
-    font-stretch: expanded;
+    letter-spacing: 1.5px;
 }
 
 .inset{
@@ -69,13 +68,14 @@ margin-top: 0rem;
     font-size: 1.5rem;
     color: black;
     margin-top: 1.2rem;
-  text-transform: capitalize;
+    text-transform: capitalize;
+    font-stretch: expanded;
 }
 .navbarSubLine{
     font-size: 1.3rem;
     color: #2e2d2d;
     padding-left: 1rem;
-    font-stretch: expanded;
+    letter-spacing: 2px;
 }
 .main{
     height: 100vh;
@@ -97,6 +97,7 @@ margin-top: 0rem;
     padding-left: 3rem;
     padding-top: 2rem;
     display: inline-block;
+    font-family: Arial;
 }
 .footer-height{
     height: 3%;
