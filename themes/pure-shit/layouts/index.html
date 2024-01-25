@@ -4,7 +4,37 @@
         <div class='col-md-2 col-md-2'></div>
         <div class='col-md-10 col-sm-8'></div>
             <img id='main-image' class='insetimg' src='img/DSC02862.JPG'>
-            <img id='main-image' class='insetimg-m' src='img/_MG_8590.jpg'>
+            <img id='main-image' class='insetimg-m' src='img/_MG_8590.jpg'> 
+            
+            <head>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <style>
+                    #banner-images img{
+                        width: 172px;
+                        height: 215px ;
+                        border: 10px solid #fff ;
+                    }
+                </style>
+            </head>
+            <body>
+                <div id="banner-images"></div>
+                <script> 
+                    var images = [
+                        {src: 'img/001.jpg', href: '#link1'},
+                        {src: 'img/002.jpg', href: '#link2'},
+                        {src: 'img/003.jpg', href: '#link3'},
+                        {src: 'img/004.jpg', href: '#link4'}
+                    ];
+            
+                    var random_image = images[Math.floor(Math.random()*images.length)];
+            
+                    $('#banner-images').html(`
+                        <a href="${random_image.href}">
+                            <img class="fade-in" src="images/${random_image.src}">
+                        </a>
+                    `);
+                </script>
+            </body>
 
         </div>
     </div>
