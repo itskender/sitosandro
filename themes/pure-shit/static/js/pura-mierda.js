@@ -25,7 +25,7 @@ function showDivs(n) {
 
 document.addEventListener("DOMContentLoaded", () => {
   const log = console.log,
-    array = ["img/001.jpg", "img/002.jpg", "img/003.jpg", "img/004.jpg", "img/005.jpg", "img/006.jpg", "img/007.jpg", "img/008.jpg", "img/016.jpg, "img/017.jpg"],
+    array = ["img/001.jpg", "img/002.jpg", "img/003.jpg", "img/004.jpg", "img/005.jpg", "img/006.jpg", "img/007.jpg", "img/008.jpg", "img/016.jpg"],
     random = Math.floor(Math.random() * array.length),
     target = document.getElementById("target");
   target.src = `${array[random]}`;
