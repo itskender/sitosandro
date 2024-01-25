@@ -23,12 +23,22 @@ function showDivs(n) {
     });
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  const log = console.log,
+    array = ["img/001.jpg", "img/002.jpg", "img/003.jpg", "img/004.jpg", "img/005.jpg", "img/006.jpg"],
+    random = Math.floor(Math.random() * array.length),
+    target = document.getElementById("target");
+  target.src = `${array[random]}`;
+  log(target);
+});
+
+
 
 document.addEventListener("DOMContentLoaded", () => {
   const log = console.log,
-    array = ["img/001.jpg", "img/002.jpg", "img/003.jpg", "img/004.jpg", "img/005.jpg"],
+    array = ["img/_MG_8590.jpg", "img/_MG_2210.jpg", "img/DSCF0684.jpg", "img/r.jpg"],
     random = Math.floor(Math.random() * array.length),
-    target = document.getElementById("target");
+    target = document.getElementById("targetmobile");
   target.src = `${array[random]}`;
   log(target);
 });
