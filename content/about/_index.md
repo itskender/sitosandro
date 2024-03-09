@@ -18,25 +18,33 @@ He is currently living and working in Rome as a freelance photographer.
 
 
 
+2024  
+**Descubrimientos Photo España 2024** _Selected Artist_
+
 2023 \
 **DongGang International Photo Festival** Yeongwol, KOR      _group exhibition with the project Marine Snow_   
+
 2022 \
 **Paolo Pellegrin. La Fragile Meraviglia** Gallerie d'Italia, Torino, IT         _producer, assistant curator_ \
 **C'è tempo per le nespole - Orti di Guerra** Museo della Guerra, Rovereto, IT        _group exhibition_ \
-**C'è tempo per le nespole - Orti di Guerra** [Danilo Montanari](https://www.danilomontanari.com/wordpress/libro/ce-tempo-per-le-nespole/) editore         _works, texts, photographs_ \
+**C'è tempo per le nespole - Orti di Guerra** [Danilo Montanari](https://www.danilomontanari.com/wordpress/libro/ce-tempo-per-le-nespole/) editore         _works, texts, photographs_ 
+
 2021 \
 **Paolo Pellegrin. L'altro** Cortona On The Move, Cortona, IT       _assistant curator_ \
-**BIENNALE ARCHITETTURA VENEZIA 2021** Venezia, IT       _Prossima Apertura_  \
+**BIENNALE ARCHITETTURA VENEZIA 2021** Venezia, IT       _Prossima Apertura_  
+
 2020 \
 **WINDOWS** – a.topos gallery, Venezia, IT  _group exhibition_  
 **Hotel Britannique** –  Napoli, IT   _permanent collection_  
-**PHCCapalbio - Honorable mention** Capalbio, IT   _solo exhibition with the project Proposta_ \
+**PHCCapalbio - Honorable mention** Capalbio, IT   _solo exhibition with the project Proposta_ 
+
 2019 \
 **LOGOS – Festa della parola** Dialoghi fotografici by FunzillaFest _speaker_  
-**Diecixdieci Photography Festival 5th Edition** - conscience, consciousness _Shortlisted, group exhibition_  
+**Diecixdieci Photography Festival 5th Edition** - _Shortlisted, group exhibition_  
 **F4/un’idea di Fotografia**, Fondazione Francesco Fabbri, Pieve di Soligo,IT  _curated by C. Sala_\
 **Prossima Apertura** in collaboration with Orizzontale, NOEO, Alessandro Imbriaco\
-**CRATERI** in collaboration with Forza Maggiore and Istituto Beni Culturali dell’Emilia Romagna \
+**CRATERI** in collaboration with Forza Maggiore and Istituto Beni Culturali dell’Emilia Romagna 
+
 2018 \
 **Atlante del Master**, MUFOCO, Cinisello Balsamo (MI), _curated by Master Iuav in Photography_ 
 

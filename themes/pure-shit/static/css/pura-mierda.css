@@ -31,12 +31,12 @@ margin-top: 0rem;
 }
 .body{
     font-size: 1rem;
-    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     overflow: visible;
     background-color: #f6f6f6!important;
     font-weight: lighter;  
     fill: #f6f6f6;
-    letter-spacing: 1.5px;
+
 }
 
 .inset{
@@ -275,7 +275,7 @@ margin-top: 0rem;
         margin-top: 4rem;
         font-size: 2rem;
         padding: 4rem;
-        overflow-y: scroll;
+        overflow-y: auto;
         width:auto;
         scrollbar-width: none;
     }
