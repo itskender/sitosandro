@@ -180,12 +180,12 @@ margin-top: 0rem;
 }
 
 .about-content{
-    display: inline-block;
-    font-size: 1.2rem;
+    display: block;
+    font-size: 1.4rem;
     white-space: normal;
     font-family: Helvetica, "Open Sans";
     overflow-y: auto;
-    width:46%;
+    width:47%;
     scrollbar-width: none;
     color: #696969;
 }
@@ -271,12 +271,12 @@ margin-top: 0rem;
         width: auto;
     }
     .about-content-m{
-        display:inline-grid;
+        display:block;
         margin-top: 4rem;
         font-size: 2rem;
         padding: 4rem;
         overflow-y: auto;
-        width:auto;
+    
         scrollbar-width: none;
     }
 
