@@ -271,8 +271,8 @@ margin-top: 0rem;
         width: auto;
     }
     .about-content-m{
-        color: blue;
-        display:inline-block;
+        color: black;
+        display: inline-flex ;
         margin-top: 4rem;
         font-size: 3rem;
         padding: 4rem;
