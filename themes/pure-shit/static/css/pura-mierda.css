@@ -275,9 +275,9 @@ margin-top: 0rem;
         margin-top: 4rem;
         font-size: 2rem;
         padding: 4rem;
-        overflow: scroll;
+        overflow-x: auto;
         width:auto;
-        scrollbar-width: none;
+        scrollbar-width: 1rem;
     }
 
     .shop-content{
