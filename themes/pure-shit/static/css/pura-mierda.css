@@ -274,9 +274,9 @@ margin-top: 0rem;
         color: black;
         display:inline-block;
         margin-top: 4rem;
-        font-size: 2rem;
+        font-size: 3rem;
         padding: 4rem;
-        
+        overflow: auto;
         width:auto;
     }
 
