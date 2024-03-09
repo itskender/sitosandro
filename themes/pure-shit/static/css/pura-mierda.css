@@ -271,7 +271,7 @@ margin-top: 0rem;
         width: auto;
     }
     .about-content-m{
-        display: inline-block;
+        display:inline-grid;
         margin-top: 4rem;
         font-size: 2rem;
         padding: 4rem;
