@@ -272,9 +272,9 @@ margin-top: 0rem;
     }
     .about-content-m{
         color: black;
-        display:inline-grid;
+        display:inline-block;
         margin-top: 4rem;
-        font-size: 1.4rem;
+        font-size: 2rem;
         padding: 4rem;
         overflow: visible;
         width:auto;
