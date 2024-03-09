@@ -274,9 +274,9 @@ margin-top: 0rem;
         color: black;
         display:inline-grid;
         margin-top: 4rem;
-        font-size: 4rem;
+        font-size: 1.4rem;
         padding: 4rem;
-        overflow: auto;
+        overflow: visible;
         width:auto;
     }
 
