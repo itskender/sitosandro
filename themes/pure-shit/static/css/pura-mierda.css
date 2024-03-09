@@ -272,12 +272,14 @@ margin-top: 0rem;
     }
     .about-content-m{
         color: black;
-        display: inline-flex ;
+        display: block;
+        height: auto;
         margin-top: 4rem;
         font-size: 3rem;
         padding: 4rem;
+        width: 98%;
+        max-height: 100rem;
         overflow: auto;
-        width:auto;
     }
 
     .shop-content{
