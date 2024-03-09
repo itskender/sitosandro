@@ -271,12 +271,12 @@ margin-top: 0rem;
         width: auto;
     }
     .about-content-m{
-        display:block;
+        display: inline-block;
         margin-top: 4rem;
         font-size: 2rem;
         padding: 4rem;
-        overflow-y: auto;
-    
+        overflow-y: scroll;
+        width:auto;
         scrollbar-width: none;
     }
 
