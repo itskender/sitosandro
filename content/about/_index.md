@@ -12,7 +12,7 @@ His major focus is the public space and its different spatial typologies, explor
 He investigates social aspects related to the contemporary, and his practice draws on the languages of documentary photography. His most recents works examine the themes of memory, its mechanisms of transmissions, family archives, and language as a binding force within communities.
 
 He collaborated with several photographers, artists and Institutions including [Alessandro Imbriaco](http://www.alessandroimbriaco.com/news.html), [Giorgio Di Noto](http://www.giorgiodinoto.com), [ICCD](http://iccd.beniculturali.it) and [Leporello](https://leporello-books.com/) bookshop, gaining valuable experience and expanding his artistic horizons. \
-He has been the studio manager and assistant curator of Magnum Photos photographer [Paolo Pellegrin](https://www.magnumphotos.com/photographer/paolo-pellegrin/) for the last 2 and a half years.
+He has been the studio manager and assistant curator of Magnum Photos photographer [Paolo Pellegrin](https://www.magnumphotos.com/photographer/paolo-pellegrin/) for 3 years.
 
 He is currently living and working in Rome as a freelance photographer. 
 
@@ -23,6 +23,8 @@ He is currently living and working in Rome as a freelance photographer.
 
 2023 \
 **DongGang International Photo Festival** Yeongwol, KOR      _group exhibition with the project Marine Snow_   
+**Paolo Pellegrin. Event Horizon** Le stanze della Fotografia, Venezia, IT      _assistant curator_
+
 
 2022 \
 **Paolo Pellegrin. La Fragile Meraviglia** Gallerie d'Italia, Torino, IT         _producer, assistant curator_ \
@@ -51,6 +53,9 @@ He is currently living and working in Rome as a freelance photographer.
 
 
 
+\
+\
+\
 
 \
 **EDUCATION**   \
