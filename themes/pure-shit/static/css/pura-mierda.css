@@ -271,13 +271,14 @@ margin-top: 0rem;
         width: auto;
     }
     .about-content-m{
+       color: black;
         display:inline-grid;
         margin-top: 4rem;
         font-size: 2rem;
         padding: 4rem;
-        overflow-x: auto;
+        overflow: auto;
         width:auto;
-        scrollbar-width: 1rem;
+        scrollbar-width: 10rem;
     }
 
     .shop-content{
