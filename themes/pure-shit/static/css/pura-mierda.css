@@ -275,7 +275,8 @@ margin-top: 0rem;
         margin-top: 4rem;
         font-size: 2rem;
         padding: 4rem;
-        overflow: auto;
+        overflow: scroll;
+        width:auto;
         scrollbar-width: none;
     }
 
