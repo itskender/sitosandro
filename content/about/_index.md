@@ -5,7 +5,6 @@ Name = "About"
 +++
 #
 
-#### Alessandro Vitali
 **IT, 1987**  \
 Born in Rome. He is a photographer, assistant curator, and writer. 
 His major focus is the public space and its different spatial typologies, exploring the human presence within the urban environment and how individuals navigate and interact with the surroundings. \
