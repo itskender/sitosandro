@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
   const log = console.log,
-    array = ["img/009.jpg", "img/010.jpg", "img/011.jpg", "img/012.jpg", "img/013.jpg", "img/014.jpg", "img/015.jpg"],
+    array = ["img/009.jpg", "img/010.jpg", "img/011.jpg", "img/012.jpg", "img/013.jpg", "img/014.jpg", "img/015.jpg", "img/017.jpg"],
     random = Math.floor(Math.random() * array.length),
     target = document.getElementById("targetmobile");
   target.src = `${array[random]}`;
