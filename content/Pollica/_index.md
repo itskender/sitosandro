@@ -1,13 +1,24 @@
 +++
 Author = "Alessandro Vitali"
-Description = "Terraferma"
-Name = "Terraferma"
+Description = "pollica"
+Name = "pollica"
 +++
 
-_Terra ferma, casa amada_ takes on the issue of Catalan identity and its relationship with the language. What does it mean to be Catalan? Who are the Catalans today? What is the value of Catalan in the construction of their identity and in the concept of community? \
-The project sees language as an identity and cultural medium, a place to return to when you are away. The result is that Catalan identity exists and blooms wherever its language endures, suggesting that Catalonia cannot survive without the Catalan language. 
+_Archivio Pollica_ is a project that started in November 2023 in Pollica (SA), on the southern coast of Italy.
 
-Photography helps provide a new reading of the current situation, putting together a scattered and changing community like the Catalan one  
 
- **_2022 - ongoing_**
+
+Pollica is a small town of about 2000 inhabitants which suffers from the typical problems of coastal villages: depopulation in winter, invasion of tourists in summer due to its proximity to the sea. Its community of inhabitants is thinning and dispersing, also due to age, and with it its history and traditions.
+
+
+The project aims at the creation of a community archive through two main practices: the establishment of a photographic studio in the main square of the town; the collection and digitisation of family albums.
+The photographic studio is responsible for taking portraits of the inhabitants to represent the historical moment, and together with the family photographs it intends to preserve historical memory and promote the cultural heritage of the community.
+
+
+
+Currently, the archive consists of about 300 portraits and 2500 family photos acquired. 
+The project will end in September 2024, with an exhibition throughout the town.
+
+
+ **_2024 - ongoing_**
 
