@@ -4,10 +4,12 @@
     {{$portraits := .Site.GetPage "Portraits"}}
     {{$travels := .Site.GetPage "travels"}}
     {{$terraferma := .Site.GetPage "terraferma"}}
+    {{$pollica := .Site.GetPage "Pollica"}}
     {{$shop := .Site.GetPage "Shop"}}
     {{$bio:= .Site.GetPage "about"}}
     {{$archi:= .Site.GetPage "architecture"}}
     {{$travel:= .Site.GetPage "travel"}}
+
 
 
     <div class='navbarLine'>Works (2020-2023)</div>
@@ -29,7 +31,7 @@
     </a>
 
     <a href={{$pollica.Permalink}}>
-        <div class='navbarLine {{ cond (eq $.Page.Description $Pollica.Description) "selected" "" }}'>Archivio Pollica</div>
+        <div class='navbarLine {{ cond (eq $.Page.Description $pollica.Description) "selected" "" }}'>Archivio Pollica</div>
     </a>
 
     <a href={{$terraferma.Permalink}}>
