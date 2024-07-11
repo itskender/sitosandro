@@ -28,6 +28,10 @@
         <div class='navbarLine {{ cond (eq $.Page.Description $travel.Description) "selected" "" }}'>Travels</div>
     </a>
 
+    <a href={{$pollica.Permalink}}>
+        <div class='navbarLine {{ cond (eq $.Page.Description $Pollica.Description) "selected" "" }}'>Archivio Pollica</div>
+    </a>
+
     <a href={{$terraferma.Permalink}}>
         <div class='navbarLine {{ cond (eq $.Page.Description $terraferma.Description) "selected" "" }}'>Terra Ferma Casa Amada</div>
     </a>
