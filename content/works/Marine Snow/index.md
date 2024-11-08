@@ -13,7 +13,3 @@ The meaning in the images comes together with time, as layer adds upon layer.
 
 As Joan Didion wrote “Time passes, memory fades, memory adjusts, memory conforms to what we think we remember.” 
 But more than anything, memory is built, constructed upon the personal, familial, and environmental changes that we witness.
-
-_Finalist @DongGang International Photo Festival 2023_ 
-
-Open Call - [The Magical Unknowns](http://dgphotofestival.com)

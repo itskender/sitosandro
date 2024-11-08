@@ -28,7 +28,7 @@ He is currently living and working in Rome as a freelance photographer.
 **Descubrimientos Photo España 2024** _Selected Artist_
 
 2023 \
-**DongGang International Photo Festival** Yeongwol, KOR      _group exhibition with the project Marine Snow_   
+**DongGang International Photo Festival** Yeongwol, KOR      _group exhibition_   
 **Paolo Pellegrin. Event Horizon** Le stanze della Fotografia, Venezia, IT      _assistant curator_
 
 
