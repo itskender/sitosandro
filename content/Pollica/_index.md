@@ -8,16 +8,16 @@ _Archivio Pollica_ is a project that started in November 2023 in Pollica (SA), o
 
 
 
-Pollica is a small town of about 2000 inhabitants which suffers from the typical problems of coastal villages: depopulation in winter, invasion of tourists in summer due to its proximity to the sea. Its community of inhabitants is thinning and dispersing, also due to age, and with it its history and traditions.
+Home of the Mediterranean diet and famous for its renowned seaside, the small town of Pollica is now facing demographic and economic problems common to many Italian villages. Its community of inhabitants is thinning and dispersing, also due to age, and with it its history and traditions.
 
 
 The project aims at the creation of a community archive through two main practices: the establishment of a photographic studio in the main square of the town; the collection and digitisation of family albums.
-The photographic studio is responsible for taking portraits of the inhabitants to represent the historical moment, and together with the family photographs it intends to preserve historical memory and promote the cultural heritage of the community.
+The photographic studio is responsible of portraying the inhabitants, as a visual record of the community.
+The family albums residents actively participate in preserving their shared history, adding to the community’s collective memory while prevent material from damaging and aging. The community archive will ensure that Pollica’s past and present are preserved for future generations while creating a dialogue within the community.
 
 
+Currently, the archive consists of about 300 portraits and more than 3000 family photos acquired. 
 
-Currently, the archive consists of about 300 portraits and 2500 family photos acquired. 
-The project will end in September 2024, with an exhibition throughout the town.
 
 
  **_2024 - ongoing_**
