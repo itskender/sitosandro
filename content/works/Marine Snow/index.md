@@ -12,3 +12,7 @@ This work is a collection of photographs from 2018 to 2023, from my personal arc
 
 As Joan Didion wrote “Time passes, memory fades, memory adjusts, memory conforms to what we think we remember.” 
 But more than anything, memory is built, constructed upon the personal, familial, and environmental changes that we witness.
+
+
+
+ **_Finalist @DongGang International Photo Festival 2023_ **
