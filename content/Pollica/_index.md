@@ -4,7 +4,7 @@ Description = "pollica"
 Name = "pollica"
 +++
 
-_Archivio Pollica_ is a project that started in November 2023 in Pollica (SA), on the southern coast of Italy.
+_Archivio Pollica_ is a project started in November 2023 in Pollica (SA), on the southern coast of Italy.
 
 
 

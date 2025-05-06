@@ -15,4 +15,4 @@ But more than anything, memory is built, constructed upon the personal, familial
 
 
 
- **_Finalist @DongGang International Photo Festival 2023_ **
+ **_Finalist @DongGang International Photo Festival 2023_**
