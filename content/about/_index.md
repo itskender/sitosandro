@@ -22,10 +22,13 @@ He is currently living and working in Rome as a freelance photographer.
 \.
 
 
-
+2025
+**Festival Inundart - Arxiu Girona** Girona, ES _group exhibition & artist in residence_
+**Gibellina Photoroad - UN:IT Fotografie del patrimonio immateriale** Gibellina, IT UN:IT _group exhibition_
 
 2024  
-**Descubrimientos Photo España 2024** _Selected Artist_
+**Descubrimientos Photo España 2024** _selected Artist_
+**Archivio Pollica** Pollica, IT    _solo exhibition_
 
 2023 \
 **DongGang International Photo Festival** Yeongwol, KOR      _group exhibition_   
