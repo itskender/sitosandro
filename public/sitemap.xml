@@ -1,1 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>/about/</loc></url><url><loc>/architecture/</loc></url><url><loc>/pollica/</loc></url><url><loc>/shop/</loc></url><url><loc>/terraferma/</loc></url><url><loc>/travel/</loc></url><url><loc>/</loc></url><url><loc>/categories/</loc></url><url><loc>/works/hec/</loc></url><url><loc>/works/hortus/</loc></url><url><loc>/works/marine-snow/</loc></url><url><loc>/works/orti/</loc></url><url><loc>/works/proposta/</loc></url><url><loc>/tags/</loc></url><url><loc>/works/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.alessandrovitali.it/about/</loc>
+  </url><url>
+    <loc>https://www.alessandrovitali.it/architecture/</loc>
+  </url><url>
+    <loc>https://www.alessandrovitali.it/pollica/</loc>
+  </url><url>
+    <loc>https://www.alessandrovitali.it/shop/</loc>
+  </url><url>
+    <loc>https://www.alessandrovitali.it/terraferma/</loc>
+  </url><url>
+    <loc>https://www.alessandrovitali.it/travel/</loc>
+  </url><url>
+    <loc>https://www.alessandrovitali.it/</loc>
+  </url><url>
+    <loc>https://www.alessandrovitali.it/categories/</loc>
+  </url><url>
+    <loc>https://www.alessandrovitali.it/works/hec/</loc>
+  </url><url>
+    <loc>https://www.alessandrovitali.it/works/hortus/</loc>
+  </url><url>
+    <loc>https://www.alessandrovitali.it/works/marine-snow/</loc>
+  </url><url>
+    <loc>https://www.alessandrovitali.it/works/orti/</loc>
+  </url><url>
+    <loc>https://www.alessandrovitali.it/works/proposta/</loc>
+  </url><url>
+    <loc>https://www.alessandrovitali.it/tags/</loc>
+  </url><url>
+    <loc>https://www.alessandrovitali.it/works/</loc>
+  </url>
+</urlset>

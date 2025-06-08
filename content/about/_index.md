@@ -22,8 +22,8 @@ He is currently living and working in Rome as a freelance photographer.
 \.
 
 
-2025
-**Festival Inusssndart - Arxiu Girona** Girona, ES _group exhibition & artist in residence_
+2025\
+**Festival Inundart - Arxiu Girona** Girona, ES _group exhibition & artist in residence_ \
 **Gibellina Photoroad - UN:IT Fotografie del patrimonio immateriale** Gibellina, IT UN:IT _group exhibition_
 
 2024  

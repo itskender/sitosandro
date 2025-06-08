@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body class='body body-s'>
+    <div class='container-flex main'>
+        {{- partial "header.html" . -}}
+        <div class='row-no-gutters main-height'>
+            <div id='navbar' class='hidden-sm col-md-2 full-height'>
+                {{- partial "navbar.html" . -}}
+            </div>
+            <div id="content" class='col-xs-12 col-md-10 main-landing'>
+                {{- block "main" . }}{{- end }}
+            </div>
+        </div>
+        <div class='row-no-gutters footer-height'>{{- partial "footer.html" . -}}</div>
+    </div>
+    </body>
+</html>
