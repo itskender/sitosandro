@@ -23,15 +23,15 @@ He is currently living and working in Rome as a freelance photographer.
 
 
 2025\
-**Festival Inundart - Arxiu Girona** Girona, ES _group exhibition & artist in residence_ \
-**Gibellina Photoroad - UN:IT Fotografie del patrimonio immateriale** Gibellina, IT UN:IT _group exhibition_
+**Festival Inundart - Arxiu Girona** [Girona](https://inundart.org/activitat/alessandro-vitali/), ES _group exhibition & artist in residence_ \
+**Gibellina Photoroad - UN:IT Fotografie del patrimonio immateriale** [Gibellina](https://gibellinaphotoroadfestival.com/it/unit-fotografie-del-patrimonio-immateriale-preview/), IT UN:IT _group exhibition_
 
 2024  
-**Descubrimientos Photo España 2024** _selected Artist_
+**Descubrimientos Photo España 2024** _selected Artist_\
 **Archivio Pollica** Pollica, IT    _solo exhibition_
 
 2023 \
-**DongGang International Photo Festival** Yeongwol, KOR      _group exhibition_   
+**DongGang International Photo Festival - Marine Snow** Yeongwol, KOR      _group exhibition_   
 **Paolo Pellegrin. Event Horizon** Le stanze della Fotografia, Venezia, IT      _assistant curator_
 
 
@@ -42,7 +42,7 @@ He is currently living and working in Rome as a freelance photographer.
 
 2021 \
 **Paolo Pellegrin. L'altro** Cortona On The Move, Cortona, IT       _assistant curator_ \
-**BIENNALE ARCHITETTURA VENEZIA 2021** Venezia, IT       _Prossima Apertura_  
+**BIENNALE ARCHITETTURA VENEZIA 2021 - Prossima Apertura** Venezia, IT       _group exhibition_ 
 
 2020 \
 **WINDOWS** – a.topos gallery, Venezia, IT  _group exhibition_  
