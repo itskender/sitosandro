@@ -1,0 +1,7 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "alessandro vitali"
+theme = "pure-shit"
+
+[Params]
+name = "ALESSANDRO VITALI"
