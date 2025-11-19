@@ -23,7 +23,7 @@ He is currently living and working in Rome (IT) as a freelance photographer.
 
 
 2025\
-**Festival Inundart ** [Girona](https://inundart.org/activitat/alessandro-vitali/), ES _group exhibition & artist in residence_ \
+**Festival Inundart** [Girona](https://inundart.org/activitat/alessandro-vitali/), ES _group exhibition & artist in residence_ \
 **Gibellina Photoroad - UN:IT Fotografie del patrimonio immateriale** [Gibellina](https://gibellinaphotoroadfestival.com/it/unit-fotografie-del-patrimonio-immateriale-preview/), IT UN:IT _group exhibition_
 
 2024  
