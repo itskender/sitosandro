@@ -9,5 +9,5 @@ The project sees language as both an anchor of identity and a vessel of culture 
 
 Photography helps provide a new reading of the current situation, weaving together a scattered and ever-changing community like the Catalan one .
 
- **_2022 - ongoing_**
+ **_2023 - ongoing_**
 
