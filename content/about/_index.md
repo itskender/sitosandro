@@ -13,7 +13,7 @@ His practice draws on the languages of documentary photography and his most rece
 He collaborates with several photographers, artists and Institutions including [Alessandro Imbriaco](http://www.alessandroimbriaco.com/news.html), [Giorgio Di Noto](http://www.giorgiodinoto.com), [ICCD](http://iccd.beniculturali.it) and [Leporello](https://leporello-books.com/) bookshop, gaining valuable experience and expanding his artistic horizons. \
 He worked as studio manager and assistant curator for Magnum Photos photographer [Paolo Pellegrin](https://www.magnumphotos.com/photographer/paolo-pellegrin/) for 3 years.
 
-He is currently living and working between Rome and Girona (ES) as a freelance photographer. 
+He is currently living and working in Rome (IT) as a freelance photographer. 
 
 
 
@@ -23,7 +23,7 @@ He is currently living and working between Rome and Girona (ES) as a freelance p
 
 
 2025\
-**Festival Inundart - Arxiu Girona** [Girona](https://inundart.org/activitat/alessandro-vitali/), ES _group exhibition & artist in residence_ \
+**Festival Inundart ** [Girona](https://inundart.org/activitat/alessandro-vitali/), ES _group exhibition & artist in residence_ \
 **Gibellina Photoroad - UN:IT Fotografie del patrimonio immateriale** [Gibellina](https://gibellinaphotoroadfestival.com/it/unit-fotografie-del-patrimonio-immateriale-preview/), IT UN:IT _group exhibition_
 
 2024  
