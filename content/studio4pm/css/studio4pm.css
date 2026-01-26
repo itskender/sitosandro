@@ -59,7 +59,7 @@ body, html {
   display: flex;
   flex-direction: column; /* ogni riga è un contenitore verticale */
   gap: 100px;              /* distanza tra le righe */
-  padding: 0px 100px 100px; /* spazio sopra titolo e sotto immagini */
+  padding: 0px 120px 120px; /* spazio sopra titolo e sotto immagini */
 }
 
 /* Ogni riga di immagini */
@@ -68,17 +68,20 @@ body, html {
   justify-content: center; /* centra le immagini orizzontalmente */
   align-items: center;     /* centra verticalmente le immagini più piccole */
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 /* Immagini nella riga */
 .row-images img {
-  max-width: 40%; /* 2 immagini per riga */
-  height: auto;   /* mantiene proporzioni originali */
+  max-width: 48%; /* 2 immagini per riga */
+  height: 600px; 
+  object-fit: cover;  /* mantiene proporzioni originali */
   display: block;
 }
 
 .row-images.single img {
   max-width: 90%;
+  margin:0 auto;
 }
   
 /* RESPONSIVE */
