@@ -86,6 +86,9 @@ body, html {
   .main-title { font-size: 120px; }
   .corner-logo { width: 80px; }
   .row-images img { max-width: 48%; }
+  .row-images img:last-child {
+    margin-bottom: 50px; /* distanza dal fondo */
+  }
 }
 
 @media (max-width: 768px) {
