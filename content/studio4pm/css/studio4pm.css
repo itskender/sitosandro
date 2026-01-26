@@ -34,8 +34,8 @@ body, html {
 
 /* FONT BUBBLE per titolo */
 @font-face {
-  font-family: 'Bubble'; 
-  src: url('../fonts/Bubble.woff2') format('woff2'),
+  font-family: 'Omletta-Regular'; 
+  src: url('../fonts/Omletta-Regular.woff2') format('woff2'),
        url('../fonts/Bubble.woff') format('woff'),
        url('../fonts/Bubble.ttf') format('truetype');
   font-weight: normal;
@@ -45,7 +45,7 @@ body, html {
 
 /* MAIN TITLE */
 .main-title {
-  font-family: 'Bubble', sans-serif !important;
+  font-family: 'Omletta-Regular', sans-serif !important;
   font-size: 160px;
   text-align: center;
   text-transform: uppercase;
@@ -78,7 +78,7 @@ body, html {
 }
 
 .row-images.single img {
-  max-width: 90%;
+  max-width: 80%;
 }
   
 /* RESPONSIVE */
