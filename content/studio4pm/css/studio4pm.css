@@ -35,10 +35,13 @@ body, html {
 /* FONT BUBBLE per titolo */
 @font-face {
   font-family: 'Bubble';
-  src: url('../fonts/Bubble.woff2') format('woff2');
+  src: url('../fonts/Bubble.woff2') format('woff2'),
+       url('../fonts/Bubble.woff') format('woff'),
+       url('../fonts/Bubble.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
 
 /* MAIN TITLE */
 .main-title {
@@ -69,9 +72,13 @@ body, html {
 
 /* Immagini nella riga */
 .row-images img {
-  max-width: 41%; /* 2 immagini per riga */
+  max-width: 40%; /* 2 immagini per riga */
   height: auto;   /* mantiene proporzioni originali */
   display: block;
+}
+
+.row-images.single img {
+  max-width: 90%;
 }
   
 /* RESPONSIVE */
