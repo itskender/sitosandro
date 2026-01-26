@@ -1,0 +1,90 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BASE */
+body, html {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #f4f2ed;
+  color: #111;
+  height: 100%;
+}
+
+/* FIXED CORNERS */
+.corner {
+  position: fixed;
+  font-size: 14px;
+  line-height: 1.4;
+  z-index: 10;
+}
+
+.top-left { top: 30px; left: 30px; }
+.top-right { top: 30px; right: 30px; text-align: right; }
+.bottom-left { bottom: 30px; left: 30px; }
+.bottom-right { bottom: 30px; right: 30px; text-align: right; max-width: 240px; }
+
+.bottom-left a { text-decoration: none; color: #111; }
+.bottom-left a:hover { text-decoration: underline; }
+
+/* LOGO */
+.corner-logo { width: 100px; height: auto; }
+
+/* FONT BUBBLE per titolo */
+@font-face {
+  font-family: 'Bubble';
+  src: url('../fonts/Bubble.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* MAIN TITLE */
+.main-title {
+  font-family: 'Bubble', sans-serif;
+  font-size: 160px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #111;
+  margin: 30px 0 0px 0;
+}
+
+/* MAIN CONTENT - 2 immagini per riga */
+.content {
+  display: flex;
+  flex-direction: column; /* ogni riga è un contenitore verticale */
+  gap: 100px;              /* distanza tra le righe */
+  padding: 0px 100px 100px; /* spazio sopra titolo e sotto immagini */
+}
+
+/* Ogni riga di immagini */
+.row-images {
+  display: flex;
+  justify-content: center; /* centra le immagini orizzontalmente */
+  align-items: center;     /* centra verticalmente le immagini più piccole */
+  gap: 80px;
+}
+
+/* Immagini nella riga */
+.row-images img {
+  max-width: 41%; /* 2 immagini per riga */
+  height: auto;   /* mantiene proporzioni originali */
+  display: block;
+}
+  
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .main-title { font-size: 120px; }
+  .corner-logo { width: 80px; }
+  .row-images img { max-width: 48%; }
+}
+
+@media (max-width: 768px) {
+  .main-title { font-size: 80px; margin-bottom: 30px; }
+  .content { padding: 150px 20px 120px; gap: 15px; }
+  .row-images { flex-direction: column; gap: 15px; }
+  .row-images img { max-width: 100%; }
+  .corner { font-size: 12px; }
+}
