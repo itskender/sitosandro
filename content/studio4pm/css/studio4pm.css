@@ -96,5 +96,15 @@ body, html {
   .content { padding: 150px 20px 120px; gap: 15px; }
   .row-images { flex-direction: column; gap: 15px; }
   .row-images img { max-width: 100%; }
-  .corner { font-size: 12px; }
+  .corner {
+    font-size: 12px;
+  }
+    
+  .top-left {
+    top: 4px;
+  }
+  .top-right {
+    top: 15px;
+  }
+
 }
