@@ -102,7 +102,6 @@ h1, h2, .main-title {
     gap: 0;
   }
 
-  /* IMMAGINI: 1 per riga, centrata, proporzioni naturali */
   .row-images {
     display: grid;
     grid-template-columns: 1fr;
@@ -115,14 +114,14 @@ h1, h2, .main-title {
     max-width: 90%;
     height: auto;
     display: block;
-    object-fit: contain; /* mantiene proporzioni */
+    object-fit: contain;
   }
 
   .content img:last-child {
-    margin-bottom: 120px;
+    margin-bottom: 40px;
   }
 
-  /* TOP LEFT */
+  /* TOP LEFT - fisso sullo schermo */
   .corner.top-left {
     font-size: 12px;
     color: #3b2f2a;
@@ -130,40 +129,48 @@ h1, h2, .main-title {
     position: fixed;
     top: 4px;
     left: 10px;
+    z-index: 10;
   }
 
-  /* TOP RIGHT */
+  /* TOP RIGHT - fisso sullo schermo, contrasto */
   .corner.top-right {
     font-size: 12px;
     color: white;
     mix-blend-mode: difference;
     position: fixed;
     top: 15px;
-    right: 30px;
+    right: 10px;
     text-align: right;
+    z-index: 10;
   }
 
-/* BOTTOM CORNERS - fissi, attaccati ai lati dello schermo */
-.corner.bottom-left {
-  position: fixed;
-  bottom: 60px;
-  left: 30px;
-  color: #3b2f2a;
-  mix-blend-mode: normal;
-  text-align: left;
-  font-size: 12px;
-  z-index: 10;
+  /* BOTTOM CORNERS: alla fine del contenuto, attaccati ai lati */
+  .bottom-corners-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;  /* distanza dai lati dello schermo */
+    margin-top: 30px; /* distanza dall’ultima immagine */
+  }
+
+  /* Bottom-left e bottom-right: testo invertito/contrast, tranne link */
+  .bottom-left,
+  .bottom-right {
+    font-size: 12px;
+    mix-blend-mode: difference; /* effetto inversione */
+    color: white;               /* colore base per contrasto */
+  }
+
+  /* Escludi link dall’inversione */
+  .bottom-left a,
+  .bottom-right a {
+    mix-blend-mode: normal;    /* niente inversione */
+    color: #0066cc;            /* blu naturale o quello che vuoi */
+    text-decoration: underline;
+  }
+
+  .bottom-left { text-align: left; }
+  .bottom-right { text-align: right; }
+
 }
 
-.corner.bottom-right {
-  position: fixed;
-  bottom: 10px;
-  right: 30px;
-  color: #3b2f2a;
-  mix-blend-mode: normal;
-  text-align: right;
-  font-size: 12px;
-  z-index: 10;
-}
-
-}
