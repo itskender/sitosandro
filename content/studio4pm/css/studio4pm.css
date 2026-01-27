@@ -135,7 +135,7 @@ h1, h2, .main-title {
   /* TOP RIGHT - fisso sullo schermo, contrasto */
   .corner.top-right {
     font-size: 12px;
-    color: white;
+    color: #C4D0D5;
     mix-blend-mode: difference;
     position: fixed;
     top: 15px;
@@ -150,7 +150,7 @@ h1, h2, .main-title {
     justify-content: space-between;
     width: 100%;
     padding: 0 10px;  /* distanza dai lati dello schermo */
-    margin-top: 30px; /* distanza dall’ultima immagine */
+    margin-top: 100px; /* distanza dall’ultima immagine */
   }
 
   /* Bottom-left e bottom-right: testo invertito/contrast, tranne link */
@@ -158,7 +158,7 @@ h1, h2, .main-title {
   .bottom-right {
     font-size: 12px;
     mix-blend-mode: difference; /* effetto inversione */
-    color: white;               /* colore base per contrasto */
+    color: #C4D0D5;               /* colore base per contrasto */
   }
 
   /* Escludi link dall’inversione */
