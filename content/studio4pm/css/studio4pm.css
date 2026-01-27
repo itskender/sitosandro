@@ -72,7 +72,7 @@ body {
 
 /* FONT */
 @font-face {
-  font-family: 'CreativeChildren-Regular';
+  font-family: 'BubbleCandy-Regular';
 
   src:  url('../fonts/BubbleCandy-Regular.woff2') format('woff2'),
   url('../fonts/CreativeChildren-Regular.woff2') format('woff2'),
@@ -85,7 +85,7 @@ body {
 
 /* MAIN TITLE */
 .main-title {
-  font-family: 'CreativeChildren-Regular', sans-serif !important;
+  font-family: 'BubbleCandy-Regular', sans-serif !important;
   font-size: 180px;
   text-align: center;
   text-transform: uppercase;
