@@ -98,19 +98,20 @@ h1, h2, .main-title {
 }
 
 @media (max-width: 768px) {
-  .main-title { font-size: 80px; margin-bottom: 20px; }
 
-    /* una sola fonte di verità per lo spazio */
+  /* MAIN TITLE */
+  .main-title { 
+    font-size: 80px; 
+    margin-bottom: 20px; 
+  }
+
+  /* CONTENITORE PRINCIPALE */
   .content {
-    padding: 60px 20px 120px;
+    padding: 60px 20px 20px; /* padding sopra e lato */
+    gap: 0; /* distanza verticale uniforme tra immagini */
   }
 
-   /* reset completo del ritmo */
-   .content {
-    padding: 60px 20px 120px;
-    gap: 0;            /* ← IMPORTANTISSIMO */
-  }
-
+  /* IMMAGINI: 1 per riga, centrata */
   .row-images {
     display: grid;
     grid-template-columns: 1fr;
@@ -119,10 +120,8 @@ h1, h2, .main-title {
 
   .row-images img {
     width: 100%;
-    max-width: 80%;    /* prova 90–95% */
-    margin-left: auto;
-    margin-right: auto;
-    margin: 0 0 20px 0; /* ← UNICA DISTANZA */
+    max-width: 80%;
+    margin: 0 0 20px 0; /* distanza costante */
     display: block;
   }
 
@@ -131,27 +130,52 @@ h1, h2, .main-title {
     margin: 0 0 20px 0;
   }
 
-  /* ultima immagine */
+  /* ultima immagine più distante dal fondo */
   .content img:last-child {
     margin-bottom: 40px;
   }
 
-  
-  .corner {
+  /* CORNER TOP LEFT - mai invertito */
+  .corner.top-left {
     font-size: 12px;
-    mix-blend-mode: difference;
-    color: white;
-  }
-
-  .corner img {
-    filter: invert(1);
-  }
-
-  .top-left {
+    color: #3b2f2a; /* cioccolato */
+    mix-blend-mode: normal;
+    position: fixed;
+    z-index: 10;
     top: 4px;
+    left: 30px;
   }
-  .top-right {
+
+  /* CORNER TOP RIGHT - effetto contrasto */
+  .corner.top-right {
+    font-size: 12px;
+    color: white;
+    mix-blend-mode: difference;
+    position: fixed;
+    z-index: 10;
     top: 15px;
+    right: 30px;
+    text-align: right;
+  }
+
+  /* CORNER BOTTOM - alla fine della pagina, non scorrono */
+  .corner.bottom-left,
+  .corner.bottom-right {
+    font-size: 12px;
+    color: #3b2f2a; /* cioccolato */
+    mix-blend-mode: normal;
+    position: relative; /* rimane dopo il contenuto */
+    margin-top: 40px;   /* distanza dall’ultima immagine */
+    z-index: 10;
+  }
+
+  .bottom-left { text-align: left; }
+  .bottom-right { text-align: right; }
+
+  /* immagini nei corner bottom senza filtri */
+  .corner.bottom-left img,
+  .corner.bottom-right img {
+    filter: none;
   }
 
 }
