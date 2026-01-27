@@ -6,36 +6,73 @@
 }
 
 /* BASE */
-body, html {
+html, body {
   font-family: 'Work Sans', sans-serif;
   background-color: #f4f2ed;
   color: #3b2f2a;
   height: 100%;
 }
 
-/* FIXED CORNERS TOP (desktop) */
+/* Layout per spingere il footer mobile in fondo */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* FIXED CORNERS - desktop */
 .corner {
   font-size: 13px;
   line-height: 1.4;
   z-index: 10;
 }
 
-.top-left { top: 30px; left: 30px; position: fixed; }
-.top-right { top: 30px; right: 30px; text-align: right; position: fixed; }
+.top-left {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+}
 
-/* FIXED BOTTOM CORNERS (desktop) */
-.bottom-left { bottom: 30px; left: 30px; position: fixed; }
-.bottom-right { bottom: 30px; right: 30px; text-align: right; max-width: 240px; position: fixed; }
+.top-right {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  text-align: right;
+}
 
-.bottom-left a { text-decoration: none; color: #3b2f2a; }
-.bottom-left a:hover { text-decoration: underline; }
+/* BOTTOM CORNERS - desktop */
+.bottom-left {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+}
+
+.bottom-right {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  text-align: right;
+  max-width: 240px;
+}
+
+.bottom-left a {
+  text-decoration: none;
+  color: #3b2f2a;
+}
+
+.bottom-left a:hover {
+  text-decoration: underline;
+}
 
 /* LOGO */
-.corner-logo { width: 100px; height: auto; }
+.corner-logo {
+  width: 100px;
+  height: auto;
+}
 
 /* FONT */
 @font-face {
-  font-family: 'Omletta-Regular'; 
+  font-family: 'Omletta-Regular';
   src: url('../fonts/Omletta-Regular.woff2') format('woff2'),
        url('../fonts/Bubble.woff') format('woff'),
        url('../fonts/Bubble.ttf') format('truetype');
@@ -60,10 +97,11 @@ h1, h2, .main-title {
 
 /* CONTENT - desktop */
 .content {
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 60px;
-  padding: 0px 120px 120px;
+  padding: 0 120px 120px;
 }
 
 /* ROW IMAGES - desktop */
@@ -71,7 +109,7 @@ h1, h2, .main-title {
   display: flex;
   justify-content: center;
   gap: 30px;
-  align-items: center; /* evita deformazioni */
+  align-items: center;
 }
 
 .row-images img {
@@ -87,16 +125,29 @@ h1, h2, .main-title {
 
 /* RESPONSIVE: tablet */
 @media (max-width: 1024px) {
-  .main-title { font-size: 120px; }
-  .corner-logo { width: 80px; }
-  .row-images img { max-width: 48%; }
+  .main-title {
+    font-size: 120px;
+  }
+
+  .corner-logo {
+    width: 80px;
+  }
+
+  .row-images img {
+    max-width: 48%;
+  }
 }
 
 /* RESPONSIVE: mobile */
 @media (max-width: 768px) {
 
-  .main-title { font-size: 80px; margin-bottom: 20px; }
+  /* TITOLI */
+  .main-title {
+    font-size: 80px;
+    margin-bottom: 20px;
+  }
 
+  /* CONTENT */
   .content {
     padding: 60px 20px 20px;
     gap: 0;
@@ -113,7 +164,6 @@ h1, h2, .main-title {
   .row-images.single img {
     max-width: 90%;
     height: auto;
-    display: block;
     object-fit: contain;
   }
 
@@ -121,56 +171,61 @@ h1, h2, .main-title {
     margin-bottom: 40px;
   }
 
-  /* TOP LEFT - fisso sullo schermo */
+  /* TOP CORNERS - mobile (fixed) */
   .corner.top-left {
-    font-size: 12px;
-    color: #3b2f2a;
-    mix-blend-mode: normal;
     position: fixed;
     top: 4px;
     left: 10px;
+    font-size: 12px;
+    mix-blend-mode: normal;
     z-index: 10;
   }
 
-  /* TOP RIGHT - fisso sullo schermo, contrasto */
   .corner.top-right {
-    font-size: 12px;
-    color: #C4D0D5;
-    mix-blend-mode: difference;
     position: fixed;
     top: 15px;
     right: 10px;
+    font-size: 12px;
     text-align: right;
+    color: #C4D0D5;
+    mix-blend-mode: difference;
     z-index: 10;
   }
 
-  /* BOTTOM CORNERS: alla fine del contenuto, attaccati ai lati */
+  /* CONTAINER BOTTOM - mobile */
   .bottom-corners-container {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 0 10px;  /* distanza dai lati dello schermo */
-    margin-top: 100px; /* distanza dall’ultima immagine */
+    padding: 0 10px;
+    margin: 100px 0 20px;
   }
 
-  /* Bottom-left e bottom-right: testo invertito/contrast, tranne link */
+  /* BOTTOM CORNERS - mobile (NON fixed) */
   .bottom-left,
   .bottom-right {
+    position: static;
+    bottom: auto;
+    left: auto;
+    right: auto;
     font-size: 12px;
-    mix-blend-mode: difference; /* effetto inversione */
-    color: #C4D0D5;               /* colore base per contrasto */
+    color: #C4D0D5;
+    mix-blend-mode: difference;
   }
 
-  /* Escludi link dall’inversione */
+  .bottom-left {
+    text-align: left;
+  }
+
+  .bottom-right {
+    text-align: right;
+  }
+
+  /* LINK: niente inversione */
   .bottom-left a,
   .bottom-right a {
-    mix-blend-mode: normal;    /* niente inversione */
-    color: #0066cc;            /* blu naturale o quello che vuoi */
+    mix-blend-mode: normal;
+    color: #0066cc;
     text-decoration: underline;
   }
-
-  .bottom-left { text-align: left; }
-  .bottom-right { text-align: right; }
-
 }
-
