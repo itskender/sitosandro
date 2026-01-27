@@ -72,23 +72,25 @@ body {
 
 /* FONT */
 @font-face {
-  font-family: 'Omletta-Regular';
-  src: url('../fonts/Omletta-Regular.woff2') format('woff2'),
-       url('../fonts/Bubble.woff') format('woff'),
-       url('../fonts/Bubble.ttf') format('truetype');
+  font-family: 'CreativeChildren-Regular';
+
+  src: url('../fonts/CreativeChildren-Regular.woff2') format('woff2'),
+       url('../fonts/Howdybun.woff2') format('woff2'),
+       url('../fonts/Omletta-Regular.woff2') format('woff2'),
+       url('../fonts/Bubble.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 /* MAIN TITLE */
 .main-title {
-  font-family: 'Omletta-Regular', sans-serif !important;
-  font-size: 160px;
+  font-family: 'CreativeChildren-Regular', sans-serif !important;
+  font-size: 180px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: #3b2f2a;
-  margin: 30px 0 0 0;
+  margin: 70px 0 0 0;
 }
 
 h1, h2, .main-title {
