@@ -148,8 +148,8 @@ h1, h2, .main-title {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-top: 30px;
-    padding: 0 20px;
+    margin-top: 40px;
+    padding: 0 10px;
   }
 
   .bottom-left,
