@@ -90,13 +90,13 @@ body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #7a675c;
+  color: #4a3d36;
   margin: 70px 0 0 0;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
 h1, h2, .main-title {
-  color: #3b2f2a;
+  color: #4a3d36;
 }
 
 /* CONTENT - desktop */
