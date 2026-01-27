@@ -74,7 +74,8 @@ body {
 @font-face {
   font-family: 'CreativeChildren-Regular';
 
-  src: url('../fonts/CreativeChildren-Regular.woff2') format('woff2'),
+  src:  url('../fonts/BubbleCandy-Regular.woff2') format('woff2'),
+  url('../fonts/CreativeChildren-Regular.woff2') format('woff2'),
        url('../fonts/Howdybun.woff2') format('woff2'),
        url('../fonts/Omletta-Regular.woff2') format('woff2'),
        url('../fonts/Bubble.woff') format('woff');
@@ -200,7 +201,7 @@ h1, h2, .main-title {
     justify-content: space-between;
     width: 100%;
     padding: 0 10px;
-    margin: 20px 0 20px;
+    margin: 0px 0 20px;
   }
 
   /* BOTTOM CORNERS - mobile (NON fixed) */
