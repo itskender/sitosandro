@@ -90,8 +90,9 @@ body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #3b2f2a;
+  color: #7a675c;
   margin: 70px 0 0 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
 h1, h2, .main-title {
