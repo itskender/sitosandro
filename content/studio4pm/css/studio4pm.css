@@ -9,7 +9,7 @@
 body, html {
   font-family: 'Work Sans', sans-serif;
   background-color: #f4f2ed;
-  color: #111;
+  color: #3b2f2a;
   height: 100%;
 }
 
@@ -54,6 +54,11 @@ body, html {
   margin: 30px 0 0px 0;
 }
 
+
+h1, h2, .main-title {
+  color: #3b2f2a;
+}
+
 /* MAIN CONTENT - 2 immagini per riga */
 .content {
   display: flex;
@@ -62,25 +67,25 @@ body, html {
   padding: 0px 120px 120px; /* spazio sopra titolo e sotto immagini */
 }
 
-/* Ogni riga di immagini */
+/* Ogni blocco immagini è una griglia */
 .row-images {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* centra le immagini orizzontalmente */
-  align-items: center;     /* centra verticalmente le immagini più piccole */
-  gap: 30px;
+  justify-content: center;
+  gap: 30px; /* distanza uniforme */
 }
 
-/* Immagini nella riga */
+/* Immagini */
 .row-images img {
-  max-width: 40%; /* 2 immagini per riga */
-  height: auto;   /* mantiene proporzioni originali */
+ max-width: 40%;
+  height: auto;
   display: block;
 }
 
 .row-images.single img {
   max-width: 80%;
+  margin: 0 auto;
 }
+
   
 /* RESPONSIVE */
 @media (max-width: 1024px) {
@@ -93,32 +98,52 @@ body, html {
 }
 
 @media (max-width: 768px) {
-  .main-title { font-size: 80px; margin-bottom: 25px; }
-  .content {  
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
+  .main-title { font-size: 80px; margin-bottom: 20px; }
+
+    /* una sola fonte di verità per lo spazio */
+  .content {
     padding: 60px 20px 120px;
   }
-  .row-images { 
-    display: flex;
-    flex-direction: column; 
-    gap: 10px;
-   }
-  .row-images img { 
-    max-width: 100%; 
-    display: block;
-  }
-  .row-images img:last-child {
-    margin-bottom: 40px; /* distanza dal fondo */
+
+   /* reset completo del ritmo */
+   .content {
+    padding: 60px 20px 120px;
+    gap: 0;            /* ← IMPORTANTISSIMO */
   }
 
+  .row-images {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .row-images img {
+    width: 100%;
+    max-width: 80%;    /* prova 90–95% */
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 0 20px 0; /* ← UNICA DISTANZA */
+    display: block;
+  }
+
+  .row-images.single img {
+    max-width: 80%;
+    margin: 0 0 20px 0;
+  }
+
+  /* ultima immagine */
+  .content img:last-child {
+    margin-bottom: 40px;
+  }
+
+  
   .corner {
     font-size: 12px;
-    opacity: 0.90;
-    text-shadow: 0 0 3px rgba(255,255,255,0.6);
+    mix-blend-mode: difference;
+    color: white;
   }
-    
+
+  
 
   .top-left {
     top: 4px;
