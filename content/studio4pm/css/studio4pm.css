@@ -13,26 +13,27 @@ body, html {
   height: 100%;
 }
 
-/* FIXED CORNERS */
+/* FIXED CORNERS TOP (desktop) */
 .corner {
-  position: fixed;
   font-size: 13px;
   line-height: 1.4;
   z-index: 10;
 }
 
-.top-left { top: 30px; left: 30px; }
-.top-right { top: 30px; right: 30px; text-align: right; }
-.bottom-left { bottom: 30px; left: 30px; }
-.bottom-right { bottom: 30px; right: 30px; text-align: right; max-width: 240px; }
+.top-left { top: 30px; left: 30px; position: fixed; }
+.top-right { top: 30px; right: 30px; text-align: right; position: fixed; }
 
-.bottom-left a { text-decoration: none; color: #111; }
+/* FIXED BOTTOM CORNERS (desktop) */
+.bottom-left { bottom: 30px; left: 30px; position: fixed; }
+.bottom-right { bottom: 30px; right: 30px; text-align: right; max-width: 240px; position: fixed; }
+
+.bottom-left a { text-decoration: none; color: #3b2f2a; }
 .bottom-left a:hover { text-decoration: underline; }
 
 /* LOGO */
 .corner-logo { width: 100px; height: auto; }
 
-/* FONT BUBBLE per titolo */
+/* FONT */
 @font-face {
   font-family: 'Omletta-Regular'; 
   src: url('../fonts/Omletta-Regular.woff2') format('woff2'),
@@ -42,7 +43,6 @@ body, html {
   font-style: normal;
 }
 
-
 /* MAIN TITLE */
 .main-title {
   font-family: 'Omletta-Regular', sans-serif !important;
@@ -50,33 +50,32 @@ body, html {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #111;
-  margin: 30px 0 0px 0;
+  color: #3b2f2a;
+  margin: 30px 0 0 0;
 }
-
 
 h1, h2, .main-title {
   color: #3b2f2a;
 }
 
-/* MAIN CONTENT - 2 immagini per riga */
+/* CONTENT - desktop */
 .content {
   display: flex;
-  flex-direction: column; /* ogni riga è un contenitore verticale */
-  gap: 60px;              /* distanza tra le righe */
-  padding: 0px 120px 120px; /* spazio sopra titolo e sotto immagini */
+  flex-direction: column;
+  gap: 60px;
+  padding: 0px 120px 120px;
 }
 
-/* Ogni blocco immagini è una griglia */
+/* ROW IMAGES - desktop */
 .row-images {
   display: flex;
   justify-content: center;
-  gap: 30px; /* distanza uniforme */
+  gap: 30px;
+  align-items: center; /* evita deformazioni */
 }
 
-/* Immagini */
 .row-images img {
- max-width: 40%;
+  max-width: 40%;
   height: auto;
   display: block;
 }
@@ -86,96 +85,80 @@ h1, h2, .main-title {
   margin: 0 auto;
 }
 
-  
-/* RESPONSIVE */
+/* RESPONSIVE: tablet */
 @media (max-width: 1024px) {
   .main-title { font-size: 120px; }
   .corner-logo { width: 80px; }
   .row-images img { max-width: 48%; }
-  .row-images img:last-child {
-    margin-bottom: 40px; /* distanza dal fondo */
-  }
 }
 
+/* RESPONSIVE: mobile */
 @media (max-width: 768px) {
 
-  /* MAIN TITLE */
-  .main-title { 
-    font-size: 80px; 
-    margin-bottom: 20px; 
-  }
+  .main-title { font-size: 80px; margin-bottom: 20px; }
 
-  /* CONTENITORE PRINCIPALE */
   .content {
-    padding: 60px 20px 20px; /* padding sopra e lato */
-    gap: 0; /* distanza verticale uniforme tra immagini */
+    padding: 60px 20px 20px;
+    gap: 0;
   }
 
-  /* IMMAGINI: 1 per riga, centrata */
+  /* IMMAGINI: 1 per riga, centrata, proporzioni naturali */
   .row-images {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+    gap: 20px;
   }
 
-  .row-images img {
-    width: 100%;
-    max-width: 80%;
-    margin: 0 0 20px 0; /* distanza costante */
-    display: block;
-  }
-
+  .row-images img,
   .row-images.single img {
-    max-width: 80%;
-    margin: 0 0 20px 0;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    object-fit: contain; /* mantiene proporzioni */
   }
 
-  /* ultima immagine più distante dal fondo */
   .content img:last-child {
     margin-bottom: 40px;
   }
 
-  /* CORNER TOP LEFT - mai invertito */
+  /* TOP LEFT */
   .corner.top-left {
     font-size: 12px;
-    color: #3b2f2a; /* cioccolato */
+    color: #3b2f2a;
     mix-blend-mode: normal;
     position: fixed;
-    z-index: 10;
     top: 4px;
     left: 30px;
   }
 
-  /* CORNER TOP RIGHT - effetto contrasto */
+  /* TOP RIGHT */
   .corner.top-right {
     font-size: 12px;
     color: white;
     mix-blend-mode: difference;
     position: fixed;
-    z-index: 10;
     top: 15px;
     right: 30px;
     text-align: right;
   }
 
-  /* CORNER BOTTOM - alla fine della pagina, non scorrono */
-  .corner.bottom-left,
-  .corner.bottom-right {
-    font-size: 12px;
-    color: #3b2f2a; /* cioccolato */
+  /* BOTTOM CORNERS MOBILE: container flex */
+  .bottom-corners-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+
+  .bottom-left,
+  .bottom-right {
+    position: relative;
+    color: #3b2f2a;
     mix-blend-mode: normal;
-    position: relative; /* rimane dopo il contenuto */
-    margin-top: 40px;   /* distanza dall’ultima immagine */
-    z-index: 10;
   }
 
   .bottom-left { text-align: left; }
   .bottom-right { text-align: right; }
-
-  /* immagini nei corner bottom senza filtri */
-  .corner.bottom-left img,
-  .corner.bottom-right img {
-    filter: none;
-  }
-
 }
