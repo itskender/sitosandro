@@ -93,13 +93,19 @@ body, html {
 
 @media (max-width: 768px) {
   .main-title { font-size: 80px; margin-bottom: 25px; }
-  .content { padding: 150px 20px 120px; gap: 15px; }
-  .row-images { flex-direction: column; gap: 15px; }
-  .row-images img { max-width: 100%; }
+  .content { padding: 45px 20px 120px; gap: 15px; }
+  .row-images { flex-direction: column; gap: 0; }
+  .row-images img { 
+    max-width: 100%; 
+    margin-bottom: 15px;
+  }
   .corner {
     font-size: 12px;
+    opacity: 0.90;
+    text-shadow: 0 0 3px rgba(255,255,255,0.6);
   }
     
+
   .top-left {
     top: 4px;
   }
