@@ -4,7 +4,6 @@ Description = "pollica"
 Name = "pollica"
 Title = "Archivio Pollica"
 type = "works"
-date = 2024-01-01
 weight = 1
 +++
 
