@@ -206,7 +206,9 @@ margin-top: 0rem;
 }
 .icons-container{
     padding-top: 2rem;
-    display: grid;
+    display: flex;
+    gap: 2rem; /* distanza tra le icone, cambia come vuoi */
+    align-items: center; /* allinea verticalmente */
 }
 
   

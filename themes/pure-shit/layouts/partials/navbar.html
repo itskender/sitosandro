@@ -1,3 +1,5 @@
+
+
 <div class='my-navbar bottom-align'>
 
     {{$works := .Site.GetPage "works"}}
@@ -11,12 +13,11 @@
     {{$travel:= .Site.GetPage "travel"}}
 
 
-
     <div class='navbarLine'>Works (2020-2025)</div>
-    {{ range $works.Pages }}
-    <a href={{.Permalink}}>
-        <div class='navbarSubLine {{ cond (eq $.Page.Title .Title) "sele" "" }}'>{{ .Title }}</div>
-    </a>
+    {{ range $works.Pages.ByWeight }}
+        <a href="{{ .Permalink }}">
+            <div class='navbarSubLine {{ if eq $.Page.Title .Title }}sele{{ end }}'>{{ .Title }}</div>
+        </a>
     {{ end }}
 
     <a href={{$portraits.Permalink}}>
@@ -30,13 +31,6 @@
         <div class='navbarLine {{ cond (eq $.Page.Description $travel.Description) "selected" "" }}'>Travels</div>
     </a>
 
-    <a href={{$pollica.Permalink}}>
-        <div class='navbarLine {{ cond (eq $.Page.Description $pollica.Description) "selected" "" }}'>Archivio Pollica</div>
-    </a>
-
-    <a href={{$terraferma.Permalink}}>
-        <div class='navbarLine {{ cond (eq $.Page.Description $terraferma.Description) "selected" "" }}'>11 Onze</div>
-    </a>
 
     <a href={{$bio.Permalink}}>
         <div class='navbarLine {{ cond (eq $.Page.Description $bio.Description) "bio" "" }}'>Bio & Contacts</div>
@@ -45,15 +39,15 @@
     <div class='icons-container'>
         <a href='mailto:info@alessandrovitali.it?subject='>
             <div class='footer-icon'>
-                <img src="https://www.svgrepo.com/show/14477/envelope.svg" alt="Envelope free icon"
+                <img src="https://www.svgrepo.com/show/502647/email-open.svg" alt="Envelope free icon"
                     title="Envelope free icon" width="25rem" height="100%">
             </div>
         </a>
     
         <a href="https://www.instagram.com/itskender/?hl=en" target="_blank">
             <div class='footer-icon'>
-                <img src="https://www.svgrepo.com/show/123786/instagram.svg" alt="Instagram free icon"
-                    title="Instagram free icon" width="20rem" height="95%">
+                <img src="https://www.svgrepo.com/show/475658/instagram-color.svg" alt="Instagram free icon"
+                    title="Instagram free icon" width="20rem" height="100%">
             </div>
         </a>
     </div>

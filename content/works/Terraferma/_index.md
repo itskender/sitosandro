@@ -2,6 +2,10 @@
 Author = "Alessandro Vitali"
 Description = "Terraferma"
 Name = "Terraferma"
+Title= "Onze"
+type = "works"
+date = 2023-11-01
+url = "/terraferma/"
 +++
 
 _Onze_ explores the complex relationship between Catalan identity and its language. What does it mean to be Catalan today? Who are the Catalans in a modern and evolving world? How does the Catalan language shape their sense of identity and community? \

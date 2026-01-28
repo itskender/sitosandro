@@ -2,6 +2,10 @@
 Author = "Alessandro Vitali"
 Description = "pollica"
 Name = "pollica"
+Title = "Archivio Pollica"
+type = "works"
+date = 2024-01-01
+weight = 1
 +++
 
 _Archivio Pollica_ is a project started in November 2023 in Pollica (SA), on the southern coast of Italy.
