@@ -6,14 +6,18 @@ Name = "About"
 #
 
 **IT, 1987**  \
-Born in Rome. He is a photographer, assistant curator, and writer. 
-His major focus is the public space and its different spatial typologies, exploring the human presence within the urban environment and how individuals navigate and interact with the surroundings. \
-His practice draws on the languages of documentary photography and his most recents works examine the themes of memory, family archives, and language as a binding force within communities.
+Born in Rome, he is a photographer and visual artist. \
+His practice focuses on public space, collective memory and family archives, exploring how images shape a shared sense of identity within communities. \
+Drawing on the languages of documentary photography, his work embraces participatory methods that actively involve local communities in the creation of images and narratives.
 
-He collaborates with several photographers, artists and Institutions including [Alessandro Imbriaco](http://www.alessandroimbriaco.com/news.html), [Giorgio Di Noto](http://www.giorgiodinoto.com), [ICCD](http://iccd.beniculturali.it) and [Leporello](https://leporello-books.com/) bookshop, gaining valuable experience and expanding his artistic horizons. \
-He worked as studio manager and assistant curator for Magnum Photos photographer [Paolo Pellegrin](https://www.magnumphotos.com/photographer/paolo-pellegrin/) for 3 years.
+He collaborates with several photographers, artists and Institutions including [Alessandro Imbriaco](http://www.alessandroimbriaco.com/news.html), [Giorgio Di Noto](http://www.giorgiodinoto.com), [ICCD](http://iccd.beniculturali.it) and [Leporello](https://leporello-books.com/) and [Studio Bellosguardo](https://www.instagram.com/studiobellosguardo/), gaining valuable experience and expanding his artistic horizons. \
+From 2021 to 2023, he worked as studio manager and assistant curator for Magnum Photos photographer [Paolo Pellegrin](https://www.magnumphotos.com/photographer/paolo-pellegrin/), contributing to editorial, exhibition and research projects.
 
-He is currently living and working in Rome (IT) as a freelance photographer. 
+His photographs were featured on serveral newspapers and magazines, including Repubblica, Internazionale, \
+Il Manifesto, Arxipelag Magazine and others. 
+
+He is currently living and working in Rome (IT) as a freelance photographer, and he is the founder of [Studio 4PM](http://www.alessandrovitali.it/studio4pm).
+
 
 
 
