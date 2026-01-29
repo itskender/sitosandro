@@ -10,7 +10,7 @@ Born in Rome, he is a photographer and visual artist. \
 His practice focuses on public space, collective memory and family archives, exploring how images shape a shared sense of identity within communities. \
 Drawing on the languages of documentary photography, his work embraces participatory methods that actively involve local communities in the creation of images and narratives.
 
-He collaborates with several photographers, artists and Institutions including [Alessandro Imbriaco](http://www.alessandroimbriaco.com/news.html), [Giorgio Di Noto](http://www.giorgiodinoto.com), [ICCD](http://iccd.beniculturali.it) and [Leporello](https://leporello-books.com/) and [Studio Bellosguardo](https://www.instagram.com/studiobellosguardo/), gaining valuable experience and expanding his artistic horizons. \
+He collaborates with several photographers, artists and Institutions including [Alessandro Imbriaco](http://www.alessandroimbriaco.com/news.html), [Giorgio Di Noto](http://www.giorgiodinoto.com), [ICCD](http://iccd.beniculturali.it), [Leporello](https://leporello-books.com/) and [Studio Bellosguardo](https://www.instagram.com/studiobellosguardo/), gaining valuable experience and expanding his artistic horizons. \
 From 2021 to 2023, he worked as studio manager and assistant curator for Magnum Photos photographer [Paolo Pellegrin](https://www.magnumphotos.com/photographer/paolo-pellegrin/), contributing to editorial, exhibition and research projects.
 
 His photographs were featured on serveral newspapers and magazines, including Repubblica, Internazionale, \
