@@ -230,7 +230,7 @@ h1, h2, .main-title {
   .bottom-left a,
   .bottom-right a {
     mix-blend-mode: normal;
-    color: #0066cc;
+    color: white;
     text-decoration: underline;
   }
 }
