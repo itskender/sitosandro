@@ -191,7 +191,7 @@ h1, h2, .main-title {
     right: 10px;
     font-size: 12px;
     text-align: right;
-    color: #C4D0D5;
+    color: #f33622;
     mix-blend-mode: difference;
     z-index: 10;
   }
@@ -213,7 +213,7 @@ h1, h2, .main-title {
     left: auto;
     right: auto;
     font-size: 12px;
-    color: #C4D0D5;
+    color: #f33622;
     mix-blend-mode: difference;
   }
 
