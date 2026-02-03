@@ -190,9 +190,9 @@ h1, h2, .main-title {
     top: 15px;
     right: 10px;
     font-size: 12px;
-    font-weight: bold;
     text-align: right;
     color: #ff3b1f;
+    filter: brightness(1.4) contrast(1.2);
     mix-blend-mode: difference;
     z-index: 10;
   }
@@ -214,9 +214,8 @@ h1, h2, .main-title {
     left: auto;
     right: auto;
     font-size: 12px;
-    font-weight: bold;
     color: #ff3b1f;
-    mix-blend-mode: difference;
+    mix-blend-mode: normal;
   }
 
   .bottom-left {
