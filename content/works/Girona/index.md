@@ -7,15 +7,11 @@ type = "works"
 weight = 1
 +++
 
-_Retrat d'estudi_ is a project developed during a month-long artistic residency in Girona for the [Inundart Festival](https://inundart.org) in 2025. 
+The images in _Retrat d’estudi_ were produced during a month-long residency in Girona for the [Inundart Festival](https://inundart.org) in 2025, in collaboration with the Arxiu Municipal de Girona. 
 
-It responds to a fundamental question: how to represent a community?
-The research focuses on family archives and community portraits, seeking to document not only traditional families but expanded networks: groups bound not by blood but by affection, shared time, and daily gestures.
+The project engages with the city and its archival heritage within the cultural context of Catalonia, an autonomous community in eastern Spain. Here, history and community are central to cultural life, and the transmission of personal and collective memory is fundamental to the construction of identity. This has historically been tied to the survival of Catalan culture, particularly following periods of political repression during the Franco dictatorship (1939–1975). The transmission of personal and collective memory thus becomes a fundamental cultural and social act.
 
-This fluid, almost diaristic practice connects the different strands of the project, creating an open and plural narrative.
-The photographs deliberately emulate typical categories found in institutional archives while questioning how personal and collective narratives intersect.
-
-The result is a work that doesn’t aspire to construct definitive memory but to open spaces for relation, reinterpretation, and participation. It proposes itself as a potential archive where the photographer acts more as mediator than author, facilitating dialogue between past and present, individual and collective memory.
+Within this context, the archive and the surrounding communities provide a stage for exploring the city heritage. Bringing together newly produced photographs with archival images, _Retrat d’estudi_ creates a dialogue between institutional and informal narratives, investigating how a community represents itself. The project examines the act of looking and the role of photography in shaping shared memory, proposing the archive as an active space where images continue to speak, and resonate across time, revealing photography as a practice of collective vision. 
 
  **_2025_**
 
