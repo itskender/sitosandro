@@ -5,9 +5,15 @@ Name = "Proposta"
 Title = "Proposta"
 +++
 
-“Put flowers in your guns” it’s the beginning of a song from I giganti, **Proposta**, presented at the Sanremo Music Festival of italian song in 1967. Flowers, nature, weapons. Two antithetical concepts, often used in opposition to each other: good and evil. But nature and weapons also speak to us about individuals, about choices and above all of communities, bringing us back to an ancestral nature, to manual skills that we are gradually forgetting.
+“Put flowers in your guns” opens ***Proposta***, the song by the Italian band _I Giganti_ presented at the Sanremo Music Festival in 1967. Flowers, nature, weapons: seemingly antithetical elements, often framed as opposites. 
+Yet the distance between them can be shorter than we think.
 
-Starting from archival photos of the trenches in World War I, reused as vegetable gardens in the post-war period, to close-up from technical manuals, the hands become the link between these two worlds. By stripping away any visual reference on the tools used, the ambiguity created by the archival material and the gestures question the viewers.
+_Proposta_ puts together two bodies of images. The first draws on archival photographs from the ICCD (Istituto Centrale per il Catalogo e la Documentazione, Rome) showing farmers cultivating vegetable gardens in the trenches of the First World War: the same spaces built for destruction repurposed, out of necessity, for survival. 
+The second consists of close-up photographs from both military and agricultural technical manuals, isolating the gestures of the hands.
+
+By removing any clear visual reference to the tools in use, the work places hands at the centre: the same gesture, the same knowledge, the same care, regardless of what is being held. The ambiguity between the two bodies of images invites the viewer into a space of uncertainty, where the boundary between nurturing and destroying becomes difficult to locate.
+
+_Proposta_ is a reflection on manual knowledge, on communities built around shared practices, and on the thin line that separates acts of care from acts of violence.
 
 
 
