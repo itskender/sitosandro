@@ -2,18 +2,21 @@
 Author = "Alessandro Vitali"
 Description = "girona"
 Name = "girona"
-Title = "Retrat d'estudi"
+Title = "Tornar al riu"
 type = "works"
 weight = 1
 +++
 
-The images in _Retrat d’estudi_ were produced during a month-long residency in Girona for the [Inundart Festival](https://inundart.org) in 2025, in collaboration with the [Arxiu Municipal de Girona](https://www.girona.cat/sgdap/cat/servei.php). 
+_Tornar al riu_ was produced during a residency for the [Inundart Festival](https://inundart.org) in 2025, in collaboration with the [Arxiu Municipal de Girona](https://www.girona.cat/sgdap/cat/servei.php) and [Bòlit Centre d'Art Contemporani ](https://web.girona.cat/bolit). 
 
- The project engages with the city and its archival heritage within the cultural context of Catalonia, an autonomous community of Spain where history and community are central to cultural life. Here the construction of personal and collective memory has always been fundamental to identity, a crucial process for the survival of Catalan culture, particularly during the political repression of the Franco dictatorship (1939–1975).
+It is set in Girona, a city in Catalonia, Spain, crossed by four rivers — the Onyar, the Güell, the Galligants, and the Ter.
+Four presences that have divided and traversed it, nourished its factories, threatened it with floods, marked the seasons, and formed the backdrop of its life.
+Organic archives that carry sediments and stories with them.
 
-Girona and its archive provide a case study for exploring how a community constructs and transmits its own image. 
-By combining newly produced photographs of daily life with archival images, Retrat d'estudi opens a dialogue between past and present, institutional and informal narratives. 
-In this exchange, the archive reveals not only what has been preserved but also what remains unspoken, while contemporary scenes gain weight through their encounter with history. The project reflects on the act of looking and the role of photography in shaping shared memory, proposing the archive as an active space where images continue to speak across time, revealing photography as an act of collective vision.
+In Catalonia, language and collective memory have been submerged for decades. During Francoism (1939–1975), the Spanish dictatorship systematically erased Catalan culture: the language was banned from public spaces, and regional identity silenced. And yet, all of this has continued to flow underneath.
+The project brings together archival photographs and contemporary images, exploring how a community constructs and transmits its own image over time. Not a confrontation between past and present, but parts of a single flow.
+
+_Tornar al riu_ inhabits this unstable space, seeking the portrait of a city between what the archive has retained and what continues, despite everything, to flow.
 
 
 
