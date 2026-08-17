@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
-    <body class='body body-s'>
+    <body class='body body-s {{ if eq .Section "Architecture" }}architecture-page{{ end }}'>
     <div class='container-flex main'>
         {{- partial "header.html" . -}}
         <div class='row-no-gutters main-height'>

@@ -1,30 +1,41 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* =========================
+   FONTS
+   ========================= */
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url('https://fonts.cdnfonts.com/css/benetti-grotesk-free'); 
 @import url('https://fonts.cdnfonts.com/css/hk-groteks');
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400&display=swap');
 
                 
+/* =========================
+   GLOBAL
+   ========================= */
 
+   html {
+    background-color: #fafafa;
+}
 
 a {
     text-decoration: none!important;
 }
 p{
-margin-top: 0rem;
+margin-top: 0;
 }
+
+
 .header{
     color: black;
-    font-family: 'Benetti Grotesk Free', "Oswald", 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 3rem;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 200;
     padding: 2.5rem 3rem 0.5rem;
-    width: 4rem;
-    line-height: 2.8rem;
-    letter-spacing: 3px;
+    width: auto;
+    line-height: 1.5rem;
+    letter-spacing: 0px;
     text-transform: capitalize;
 }
 .header-height{
@@ -35,13 +46,11 @@ margin-top: 0rem;
 }
 .body{
     font-size: 1rem;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: 200;  
     overflow: visible;
-    background-color: #f6f6f6!important;
-    font-family: 'Benetti Grotesk Free';
-    font-weight: lighter;  
-    fill: #f6f6f6;
-
+    background-color: #fafafa!important;
+    fill: #fafafa;
 }
 
 .inset{
@@ -64,23 +73,63 @@ margin-top: 0rem;
 }
 .my-navbar{
     margin-top: 0rem;
-    padding-top: 4.3rem;
+    padding-top: 1.2rem;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 3rem;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    min-height: 25vh;
 }
 .navbarLine{
-    font-size: 1.5rem;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 1.4rem;
     color: black;
     margin-top: 1.2rem;
     text-transform: capitalize;
-    font-stretch: expanded;
+    font-stretch: normal;
+    font-weight: 200;
 }
 .navbarSubLine{
+    font-family: 'Schibsted Grotesk', sans-serif;
     font-size: 1.3rem;
-    color: #2e2d2d;
-    padding-left: 1rem;
+    font-weight: 100;
+    color: black;
+    padding-left: 2rem;
     letter-spacing: 2px;
+}
+
+.navbarSubLine.active-page {
+    font-style: italic;
+}
+
+.nav-dropdown {
+    margin: 0;
+}
+
+.nav-dropdown summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav-dropdown summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Asterisco
+.nav-dropdown summary::before {
+    content: "*";
+    margin-right: 0.5rem;
+}
+
+.nav-dropdown summary::after {
+    content: none;
+} */
+
+.navbarDropdownContent {
+    margin-top: 0.2rem;
 }
 .main{
     height: 100vh;
@@ -96,7 +145,6 @@ margin-top: 0rem;
     overflow-x: hidden;
 }
 .footer{
-    background-color: #f6f6f6;
     color: rgb(0, 0, 0);
     height: 100%;
     padding-left: 3rem;
@@ -105,10 +153,12 @@ margin-top: 0rem;
     font-family: Helvetica;
 }
 .footer-height{
-    height: 3%;
+    font-size: 1.1rem;
+    height: 2%;
+    position: fixed;
     justify-content: right;
-    position: absolute;
     bottom: 3rem;
+    z-index: 10;
 }
 .footer-icon{
     margin: 0rem 1rem 1rem 0;
@@ -164,30 +214,16 @@ margin-top: 0rem;
     background-color: transparent !important;
 }
 
-.shop-carusel{
-    margin-top:2.5rem;
-}
-.shop-carusel-image{
-    height: 50rem;
-}
-.selected{
-    font-weight: 1000;
-    color:rgb(252, 200, 158);
+.personal {
+    color: rgb(54, 104, 135);
 }
 
-.sele{
-    font-weight: 1000;
-    color:rgb(255, 160, 90);
+.commissions {
+    color: rgb(255, 160, 90);
 }
 
-.select{
-    font-weight: 1000;
-    color:rgb(54, 104, 135);
-}
-
-.bio{
-    font-weight: 1000;
-    color:rgb(182, 182, 145);
+.bio {
+    color: rgb(182, 182, 145);
 }
 
 .about-content{
@@ -200,25 +236,141 @@ margin-top: 0rem;
     scrollbar-width: none;
     color: #696969;
 }
-.shop-content{
-    display: inline-block;
-    font-size: 1.2rem;
-    white-space: normal;
-    padding-right: 6rem;
-    font-family: Arial, 'Open Sans';
-    overflow: auto;
-    scrollbar-width: none;
-    color: #696969;
-}
+
 .icons-container{
+    margin-top: auto    ;
     padding-top: 2rem;
     display: flex;
     gap: 2rem; /* distanza tra le icone, cambia come vuoi */
     align-items: center; /* allinea verticalmente */
 }
 
-  
+.architecture-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: 40px;
+    row-gap: 35px;
+    padding: 3rem;
+}
 
+.architecture-grid img {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    display: block;
+}
+
+.architecture-page {
+    width: 100%;
+}
+/*per nascondere navbar in pagina architettura*/
+/*body.architecture-page #navbar, 
+body.architecture-page .footer-height {
+    display: none !important;
+} 
+
+body.architecture-page #content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+} */
+  
+.architecture-thumb {
+    cursor: pointer;
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: rgba(250, 250, 250, 0.97);
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.lightbox img {
+    max-width: 70vw;
+    max-height: 70vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+/* =========================
+   PAST PROJECTS
+   ========================= */
+
+   .past-projects-page {
+    width: 100%;
+}
+
+.past-projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 2rem 3rem;
+    align-items: flex-start;
+}
+
+.past-projects-grid img {
+    height: 280px;
+    width: auto;
+    display: block;
+}
+
+.past-project-thumb {
+    cursor: pointer;
+}
+
+#past-project-lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: rgba(250, 250, 250, 0.97);
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#past-project-lightbox img {
+    max-width: 70vw;
+    max-height: 70vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.past-project-item {
+    position: relative;
+}
+
+.past-project-item img {
+    height: 280px;
+    width: auto;
+    display: block;
+}
+
+.past-project-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none;
+}
+
+.past-project-item:hover .past-project-overlay {
+    opacity: 1;
+}
 
 @media (max-width: 991px) and (min-width: 768px) {
     .carusel-image-s{

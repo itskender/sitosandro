@@ -1,53 +1,87 @@
-
-
 <div class='my-navbar bottom-align'>
 
     {{$works := .Site.GetPage "works"}}
-    {{$portraits := .Site.GetPage "Portraits"}}
-    {{$travels := .Site.GetPage "travels"}}
-    {{$terraferma := .Site.GetPage "terraferma"}}
-    {{$pollica := .Site.GetPage "pollica"}}
-    {{$shop := .Site.GetPage "Shop"}}
-    {{$bio:= .Site.GetPage "about"}}
-    {{$archi:= .Site.GetPage "architecture"}}
-    {{$travel:= .Site.GetPage "travel"}}
+    {{$archi := .Site.GetPage "architecture"}}
+    {{$lifestyle := .Site.GetPage "lifestyle"}}
+    {{$bio := .Site.GetPage "about"}}
 
 
-    <div class='navbarLine'>Works (2020-2025)</div>
-    {{ range $works.Pages.ByWeight }}
-        <a href="{{ .Permalink }}">
-            <div class='navbarSubLine {{ if eq $.Page.Title .Title }}sele{{ end }}'>{{ .Title }}</div>
+    <!-- PERSONAL -->
+
+    <details class="nav-dropdown" {{ if eq $.Page.Parent $works }}open{{ end }}>
+        <summary class='navbarLine {{ if eq $.Page.Parent $works }}personal{{ end }}'>
+            Personal
+        </summary>
+    
+        <div class="navbarDropdownContent">
+            {{ range $works.Pages.ByWeight }}
+                <a href="{{ .Permalink }}">
+                    <div class="navbarSubLine {{ if eq $.Page . }}active-page{{ end }}">
+                        {{ .Title }}
+                    </div>
+                </a>
+            {{ end }}
+        </div>
+    </details>
+
+
+    <!-- COMMISSIONED -->
+
+<details class="nav-dropdown" {{ if or (eq $.Page $archi) (eq $.Page $lifestyle) }}open{{ end }}>
+    <summary class='navbarLine {{ if or (eq $.Page $archi) (eq $.Page $lifestyle) }}commissioned{{ end }}'>
+        Commissioned
+    </summary>
+
+    <div class="navbarDropdownContent">
+
+        <a href="{{ $archi.Permalink }}">
+            <div class="navbarSubLine">
+                Architecture
+            </div>
         </a>
-    {{ end }}
 
-    <a href={{$portraits.Permalink}}>
-        <div class='navbarLine {{ cond (eq $.Page.Description $portraits.Description) "selected" "" }}'> Portraits</div>
-    </a>
-    <a href={{$archi.Permalink}}>
-        <div class='navbarLine {{ cond (eq $.Page.Description $archi.Description) "selected" "" }}'>Architecture</div>
+        <a href="{{ $lifestyle.Permalink }}">
+            <div class="navbarSubLine">
+                Lifestyle
+            </div>
+        </a>
+
+    </div>
+</details>
+
+    <!-- INFO -->
+
+    <a href="{{ $bio.Permalink }}">
+        <div class='navbarLine {{ if eq $.Page $bio }}bio{{ end }}'>
+            Info
+        </div>
     </a>
 
-    <a href={{$travel.Permalink}}>
-        <div class='navbarLine {{ cond (eq $.Page.Description $travel.Description) "selected" "" }}'>Travels</div>
-    </a>
 
-    <a href={{$bio.Permalink}}>
-        <div class='navbarLine {{ cond (eq $.Page.Description $bio.Description) "bio" "" }}'>Bio & Contacts</div>
-    </a>
+    <!-- ICONS -->
 
     <div class='icons-container'>
+
         <a href='mailto:hello@alessandrovitali.it?subject='>
             <div class='footer-icon'>
-                <img src="https://www.svgrepo.com/show/502647/email-open.svg" alt="Envelope free icon"
-                    title="Envelope free icon" width="25rem" height="100%">
+                <img
+                    src="https://www.svgrepo.com/show/502647/email-open.svg"
+                    alt="Email"
+                    width="22"
+                    height="100%">
             </div>
         </a>
-    
+
         <a href="https://www.instagram.com/itskender/?hl=en" target="_blank">
             <div class='footer-icon'>
-                <img src="https://www.svgrepo.com/show/475658/instagram-color.svg" alt="Instagram free icon"
-                    title="Instagram free icon" width="20rem" height="100%">
+                <img
+                    src="https://www.svgrepo.com/show/510026/instagram.svg"
+                    alt="Instagram"
+                    width="20"
+                    height="100%">
             </div>
         </a>
+
     </div>
+
 </div>

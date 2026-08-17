@@ -1,8 +1,36 @@
 {{ define "main" }}
-<div class='col-md-3'> <div class='description description-s description-w'>{{ .Content }}</div></div>
-<div class='carusel'>
-    {{range .Page.Resources}}
-    <img class='carusel-image carusel-image-s' src='{{.Permalink}}'>
-    {{end}}
+
+<div class="architecture-page">
+
+    <div class="architecture-grid">
+
+        {{ range .Page.Resources }}
+            <img src="{{ .Permalink }}" alt="" class="architecture-thumb">
+        {{ end }}
+
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <img id="lightbox-image" src="" alt="">
+    </div>
+
 </div>
+
+<script>
+    const thumbs = document.querySelectorAll('.architecture-thumb');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImage = document.getElementById('lightbox-image');
+
+    thumbs.forEach(function (thumb) {
+        thumb.addEventListener('click', function () {
+            lightboxImage.src = thumb.src;
+            lightbox.style.display = 'flex';
+        });
+    });
+
+    lightbox.addEventListener('click', function () {
+        lightbox.style.display = 'none';
+    });
+</script>
+
 {{ end }}

@@ -7,16 +7,14 @@ Name = "About"
 
 **IT, 1987**  \
 Born in Rome, he is a photographer and visual artist. \
-His practice focuses on public space, collective memory and family archives, exploring how images shape a shared sense of identity within communities. \
-Drawing on the languages of documentary photography, his work embraces participatory methods that actively involve local communities in the creation of images and narratives.
+His practice focuses on public space, collective memory and family archives, exploring how images shape a shared sense of identity within communities. Drawing on the languages of documentary photography, his work embraces participatory methods that actively involve local communities in the creation of images and narratives.
 
-He collaborates with several photographers, artists and Institutions including [Alessandro Imbriaco](http://www.alessandroimbriaco.com/news.html), [Giorgio Di Noto](http://www.giorgiodinoto.com), [ICCD](http://iccd.beniculturali.it), [Leporello](https://leporello-books.com/) and [Studio Bellosguardo](https://www.instagram.com/studiobellosguardo/), gaining valuable experience and expanding his artistic horizons. \
 From 2021 to 2023, he worked as studio manager and assistant curator for Magnum Photos photographer [Paolo Pellegrin](https://www.magnumphotos.com/photographer/paolo-pellegrin/), contributing to editorial, exhibition and research projects.
 
 His photographs were featured on serveral newspapers and magazines, including Repubblica, Internazionale, \
 Il Manifesto, Arxipelag Magazine and others. 
 
-He is currently living and working in Rome (IT) as a freelance photographer, and he is the founder of [Studio 4PM](http://www.alessandrovitali.it/studio4pm).
+He is currently living and working between Rome (IT) and Girona (ES) as a freelance photographer, and he is the founder of [Studio 4PM](http://www.alessandrovitali.it/studio4pm).
 
 
 
@@ -25,6 +23,8 @@ He is currently living and working in Rome (IT) as a freelance photographer, and
 \.
 \.
 
+2026\
+**TRANSDOCUMENTAR** [Tàrrega](https://xac.gencat.cat/ca/llista_arxius_comarcals/urgell/detall/Nou-article-01341/), ES _group exhibition & artist in residence_ 
 
 2025\
 **Festival Inundart** [Girona](https://inundart.org/activitat/alessandro-vitali/), ES _group exhibition & artist in residence_ \

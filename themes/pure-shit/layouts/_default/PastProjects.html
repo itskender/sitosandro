@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+<div class="past-projects-page">
+
+    <div class="past-projects-grid">
+
+        {{ range .Page.Resources }}
+            {{ if eq .ResourceType "image" }}
+
+                {{ $project := path.Base (path.Dir .RelPermalink) }}
+
+                <div class="past-project-item">
+
+                    <img src="{{ .Permalink }}"
+                         alt=""
+                         class="past-project-thumb">
+
+                    <div class="past-project-overlay">
+                        {{ $project }}
+                    </div>
+
+                </div>
+
+            {{ end }}
+        {{ end }}
+
+    </div>
+
+</div>
+
+<div class="lightbox" id="past-project-lightbox">
+    <img id="past-project-lightbox-image" src="" alt="">
+</div>
+
+<script>
+    const pastThumbs = document.querySelectorAll('.past-project-thumb');
+    const pastLightbox = document.getElementById('past-project-lightbox');
+    const pastLightboxImage = document.getElementById('past-project-lightbox-image');
+
+    pastThumbs.forEach(function (thumb) {
+        thumb.addEventListener('click', function () {
+            pastLightboxImage.src = thumb.src;
+            pastLightbox.style.display = 'flex';
+        });
+    });
+
+    pastLightbox.addEventListener('click', function () {
+        pastLightbox.style.display = 'none';
+    });
+</script>
+
+{{ end }}
