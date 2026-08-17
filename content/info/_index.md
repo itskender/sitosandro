@@ -1,13 +1,13 @@
 +++
 Author = "Alessandro Vitali"
-Description = "About/Info"
-Name = "About"
+Description = "Info"
+Name = "Info"
 +++
 #
 
 **IT, 1987**  \
 Born in Rome, he is a photographer and visual artist. \
-His practice focuses on public space, collective memory and family archives, exploring how images shape a shared sense of identity within communities. Drawing on the languages of documentary photography, his work embraces participatory methods that actively involve local communities in the creation of images and narratives.
+His practice focuses on public space, collective memory and family archives, exploring how images shape a shared sense of identity. Drawing on the languages of documentary photography, his work embraces participatory methods that actively involve local communities in the creation of images and narratives.
 
 From 2021 to 2023, he worked as studio manager and assistant curator for Magnum Photos photographer [Paolo Pellegrin](https://www.magnumphotos.com/photographer/paolo-pellegrin/), contributing to editorial, exhibition and research projects.
 
