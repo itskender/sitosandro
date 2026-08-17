@@ -35,13 +35,13 @@
     <div class="navbarDropdownContent">
 
         <a href="{{ $archi.Permalink }}">
-            <div class="navbarSubLine">
+            <div class="navbarSubLine {{ if eq $.Page $archi }}active-page{{ end }}">
                 Architecture
             </div>
         </a>
-
+        
         <a href="{{ $lifestyle.Permalink }}">
-            <div class="navbarSubLine">
+            <div class="navbarSubLine {{ if eq $.Page $lifestyle }}active-page{{ end }}">
                 Lifestyle
             </div>
         </a>

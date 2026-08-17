@@ -373,69 +373,86 @@ body.architecture-page #content {
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
-    .carusel-image-s{
+
+    .carusel-image-s {
         height: 80rem;
-        padding-right: 0rem;
+        padding-right: 0;
         max-width: 90vh;
         padding-left: 5rem;
         scrollbar-width: none;
     }
-    
-    .body-s{
+
+    .body-s {
         font-size: 1rem;
-        font-family: Arial, Helvetica, Sans-Serif;
+        font-family: 'Schibsted Grotesk', sans-serif;
         overflow: hidden;
-        background-color: #f6f6f6!important;
-        fill: #f6f6f6;
+        background-color: #fafafa !important;
+        fill: #fafafa;
     }
-    .description-s{
+
+    .description-s {
         display: block;
         font-size: 2.6rem;
         color: black;
         white-space: normal;
         padding-left: 5rem;
         padding-right: 6rem;
-        font-weight: bolder;
+        font-weight: 200;
         min-width: 100%;
     }
-    .header-s{
+
+    .header-s {
         font-size: 5rem;
         line-height: 4rem;
-        font-style: bold;
     }
-    .my-navbar{
-        margin:auto;
+
+    .my-navbar {
+        margin: auto;
         padding: 6rem;
-        padding-bottom: 0rem;
+        padding-bottom: 0;
     }
-    .navbarLine{
+
+    .navbarLine {
+        font-family: 'Schibsted Grotesk', sans-serif;
         font-size: 2.9rem;
         color: black;
         margin-top: 1rem;
-        font-weight: bold;
-        text-transform: uppercase;
+        font-weight: 200;
+        text-transform: capitalize;
         text-align: center;
     }
-    .navbarSubLine{
+
+    .navbarSubLine {
+        font-family: 'Schibsted Grotesk', sans-serif;
         font-size: 3rem;
         color: black;
-        padding-left: 3rem;
+        padding-left: 0;
         text-align: center;
+        font-weight: 200;
+        letter-spacing: 2px;
     }
-    .insetimg{
-        display:none;
+
+    .navbarSubLine.active-page {
+        font-style: italic;
     }
-    .main{
+
+    .insetimg {
+        display: none;
+    }
+
+    .main {
         height: 90vh;
     }
-    .footer{
+
+    .footer {
         margin: 1rem 1rem 1rem 0;
         display: inline-flex;
         height: 90%;
         padding: 1rem;
         width: auto;
     }
-    .about-content-m{
+
+    .about-content-m {
         color: black;
         display: block;
         height: auto;
@@ -443,45 +460,106 @@ body.architecture-page #content {
         font-size: 3rem;
         padding: 4rem;
         width: 98%;
-        max-height: 1300px ;
+        max-height: 1300px;
         overflow: auto;
     }
 
-    .shop-content{
-       margin-top: 10rem;
-        font-size: 4rem;
-        padding-right: 6rem;
-        padding-left: 5rem;
-    }
-.footer-text{
-    margin-left:3.5rem;
-    margin-top: 0rem;
-    font-size: 2rem;
-    color: grey;
-    position: relative;
-    bottom: 3rem;
-}
-
-.insetimg-m{
-    display: block;
-    margin-top: auto;
-    margin-left: 3.7rem;
-    max-height: 100;
-    width: auto;
-    overflow-y: scroll;
+    .footer-text {
+        margin-left: 3.5rem;
+        margin-top: 0;
+        font-size: 2rem;
+        color: grey;
+        position: relative;
+        bottom: 3rem;
     }
 
-.icons-container{
-    padding-top: 2rem;
-    padding-left: 2rem;
-    text-align: center;
-}
-.footer-icon{
-    margin: 0rem 1rem 1rem 0;
-    display: inline-block;
-    height: 80%;
-    width: 3.5rem;
+    .insetimg-m {
+        display: block;
+        margin-top: auto;
+        margin-left: 3.7rem;
+        max-height: 100%;
+        width: auto;
+        overflow-y: scroll;
+    }
+
+    .icons-container {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        text-align: center;
+    }
+
+    .footer-icon {
+        margin: 0 1rem 1rem 0;
+        display: inline-block;
+        height: 80%;
+        width: 3.5rem;
+    }
+
+    /* Architecture / Lifestyle */
+
+    .architecture-grid {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+        padding: 2rem;
+    }
+
+    /* Past Projects */
+
+    .past-projects-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        padding: 2rem;
+        align-items: flex-start;
+    }
+
+    .past-project-item img {
+        height: 280px;
+        width: auto;
+    }
+
 }
 
+/* =========================
+   MOBILE
+   ========================= */
+
+@media screen and (max-width: 767px) {
+
+    .insetimg {
+        display: none;
+    }
+    
+    .insetimg-m {
+        display: block;
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        max-width: 90vw;
+        max-height: 70vh;
+        object-fit: contain;
+    }
+
+    .architecture-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 12px;
+        row-gap: 12px;
+        padding: 1.5rem;
+    }
+
+    .past-projects-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 1.5rem;
+        align-items: flex-start;
+    }
+
+    .past-project-item img {
+        height: 180px;
+        width: auto;
+    }
 
 }
