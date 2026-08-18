@@ -581,7 +581,7 @@ body.architecture-page #content {
         width: 100%;
         float: none;
         margin: 0;
-        padding: 0 0.5rem 1rem;
+        padding: 0 0.2rem 0.5rem;
         box-sizing: border-box;
     }
 
@@ -690,6 +690,14 @@ body.architecture-page #content {
     text-align: justify;
     font-size: 1.4rem;
     line-height: 1.5;
+}
+
+.description,
+.description-w,
+.description-s,
+.about-content,
+.about-content-m {
+    color: 2b2b2b;
 }
 
 
