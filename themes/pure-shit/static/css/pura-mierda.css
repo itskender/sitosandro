@@ -52,7 +52,7 @@ margin-top: 0;
 
 .inset{
     margin-bottom: 2rem;
-    margin:left;
+    margin-left: 0;
 }
 .insetimg{
     display: inline-block;
@@ -576,7 +576,7 @@ margin-top: 0;
 
 .inset{
     margin-bottom: 2rem;
-    margin:left;
+    margin: left;
 }
 .insetimg{
     display: inline-block;
@@ -706,7 +706,7 @@ margin-top: 0;
     font-size: 1.4rem;
     white-space: normal;
     padding-right: 5rem;
-    max-width: 40 rem;
+    max-width: 40rem;
     font-family: 'HK Grotesk', Helvetica;
     text-align: left;
 }
