@@ -737,7 +737,7 @@ body.architecture-page #content {
         grid-template-columns: repeat(3, 1fr);
         column-gap: 20px;
         row-gap: 20px;
-        padding-left: 4rem;
+        padding-left: 1rem;
         padding-right: 1rem;
         box-sizing: border-box;
     }
