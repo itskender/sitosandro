@@ -45,8 +45,8 @@ margin-top: 0;
     font-family: 'Schibsted Grotesk', sans-serif;
     font-weight: 200;  
     overflow: visible;
-    background-color: #fafafa!important;
-    fill: #fafafa;
+    background-color: #fcfcfc!important;
+    fill: #fcfcfc;
 }
 
 .inset{
@@ -118,6 +118,7 @@ margin-top: 0;
 .nav-dropdown summary::before {
     content: "+";
     display: inline-block;
+    margin-right: 0.1rem;
 }
 
 
