@@ -898,8 +898,8 @@ body.architecture-page #content {
    768–991 px
    ========================= */
 
-   @media (max-width: 991px) and (min-width: 768px) {
-/*
+ /*  @media (max-width: 991px) and (min-width: 768px) {
+
     .carusel-image-s {
         height: 80rem;
         padding-right: 0;
@@ -1039,14 +1039,14 @@ body.architecture-page #content {
     .past-project-item img {
         height: 280px;
         width: auto;
-    } */
-}
+    } 
+} */
    /* =========================
    MOBILE
    < 768 px
    ========================= */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
 
     html,
     body {
