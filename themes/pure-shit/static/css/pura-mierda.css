@@ -581,8 +581,12 @@ body.architecture-page #content {
         width: 100%;
         float: none;
         margin: 0;
-        padding: 0;
+        padding: 0 0.5rem 1rem;
         box-sizing: border-box;
+    }
+
+    .main-landing {
+        padding-right: 0 !important;   /* <-- annulla il padding-right asimmetrico ereditato dal desktop */
     }
 
     #content.hidden-sm {
