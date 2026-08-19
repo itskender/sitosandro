@@ -7,7 +7,7 @@
         {{ range .Page.Resources }}
             {{ if eq .ResourceType "image" }}
 
-                {{ $project := path.Base (path.Dir .RelPermalink) }}
+                {{ $project := path.Base (path.Dir .Name) }}
 
                 <div class="past-project-item">
 

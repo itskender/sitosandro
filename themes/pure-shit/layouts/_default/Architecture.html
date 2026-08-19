@@ -4,7 +4,7 @@
 
     <div class="architecture-grid">
 
-        {{ range .Page.Resources }}
+        {{ range sort .Page.Resources }}
             <img src="{{ .Permalink }}" alt="" class="architecture-thumb">
         {{ end }}
 
