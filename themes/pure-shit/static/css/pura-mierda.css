@@ -5,7 +5,7 @@
 @import url('https://fonts.cdnfonts.com/css/benetti-grotesk-free'); 
 @import url('https://fonts.cdnfonts.com/css/hk-groteks');
 @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@100;200;300;400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@200;300;400&display=swap');
                 
 /* =========================
    GLOBAL
@@ -114,7 +114,7 @@ margin-top: 0;
     display: none;
 }
 
-/* Asterisco */
+/* più e meno accanto al nome */
 .nav-dropdown summary::before {
     content: "+";
     display: inline-block;
@@ -130,6 +130,18 @@ margin-top: 0;
     margin-top: 0.5rem;
     content: "-";
 }
+
+.inset-caption{
+    display: block;
+    text-align: left;
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-style: italic;
+    color: #2b2b2b;
+    margin-top: 2rem;
+}
+
 .main{
     height: 100vh;
 }
@@ -152,11 +164,11 @@ margin-top: 0;
     font-family: Helvetica;
 }
 .footer-height{
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     height: 2%;
     position: fixed;
     justify-content: right;
-    bottom: 3rem;
+    bottom: 2.3rem;
     z-index: 10;
 }
 .footer-icon{
@@ -217,7 +229,7 @@ margin-top: 0;
     color: rgb(54, 104, 135);
 }
 
-.commissions {
+.commissioned {
     color: rgb(255, 160, 90);
 }
 /*
@@ -263,7 +275,8 @@ margin-top: 0;
     width: 100%;
 }
 /*per nascondere navbar in pagina architettura*/
-/*body.architecture-page #navbar, 
+/* 
+body.architecture-page #navbar, 
 body.architecture-page .footer-height {
     display: none !important;
 } 
@@ -272,7 +285,8 @@ body.architecture-page #content {
     width: 100%;
     margin: 0;
     padding: 0;
-} */
+} 
+*/
   
 .architecture-thumb {
     cursor: pointer;
@@ -632,9 +646,13 @@ body.architecture-page #content {
         font-style: italic;
     }
 
+    .inset-caption{
+        display: none;
+    }
+
 
     /* =========================
-       WORK TEST
+       WORK TEXT
        ========================= */
 
     .description,
@@ -699,7 +717,7 @@ body.architecture-page #content {
 .description-s,
 .about-content,
 .about-content-m {
-    color: 2b2b2b;
+    color: #2b2b2b;
 }
 
 
