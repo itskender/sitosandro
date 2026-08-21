@@ -11,11 +11,9 @@ His practice focuses on public space, collective memory and family archives, exp
 
 From 2021 to 2023, he worked as studio manager and assistant curator for Magnum Photos photographer [Paolo Pellegrin](https://www.magnumphotos.com/photographer/paolo-pellegrin/), contributing to editorial, exhibition and research projects.
 
-His photographs were featured on serveral newspapers and magazines, including Repubblica, Internazionale, \
-Il Manifesto, Arxipelag Magazine and others. 
+His photographs were featured on serveral newspapers and magazines, including Repubblica, Internazionale, Il Manifesto, Arxipelag Magazine and  others. 
 
 He is currently living and working between Rome (IT) and Girona (ES) as a freelance photographer, and he is the founder of [Studio 4PM](http://www.alessandrovitali.it/studio4pm).
-
 
 
 

@@ -3,11 +3,13 @@ title: "Si obrissim les persones"
 weight: 1
 ---
 
-«If we opened people up, we would find landscapes» 
+**_«If we opened people up, we would find landscapes»_**
 
-Starting from this phrase by filmmaker _Agnès Varda_, the project explores the archive as a device of transformation. 
+Starting from the sentence by filmmaker _Agnès Varda_, the project explores the archive as a device of transformation. 
 
-Working with the glass plates by local photographer Miquel Martí Florensa preserved at the Arxiu Comarcal de l’Urgell in Tàrrega, Catalonia, the project investigates portraits and everyday scenes marked by the passage of time and material deterioration. Through photography, these archival images are approached as abstract landscapes, bringing their material fragility and latent forms to the foreground. 
+Working with the glass plates of local photographer Miquel Martí Florensa, preserved in Tàrrega, Catalonia, the project investigates portraits and everyday scenes originally fixed with clarity and intention. Over time, material deterioration, scratches, stains, the slow erosion of the emulsion, has rendered many of these images unrecognizable, dissolving the human figure into abstract landscapes.
+
+This transformation reveals the archive as a place where something is still happening. The institution safeguards the plates, yet decay continues to work on them regardless, an entropy that keeps rewriting the image from within.    
 
 The archival image thus becomes a space of transit between memory and loss, between the individual and the landscape, revealing the fragility of both matter and the communities it contains.
 
