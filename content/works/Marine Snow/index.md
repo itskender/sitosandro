@@ -20,3 +20,12 @@ A memory that drifts without chronology, where everything is destined sooner or 
 
 
  **_Finalist @DongGang International Photo Festival 2023_**
+
+
+
+\.
+\.
+
+_**2023**_
+
+

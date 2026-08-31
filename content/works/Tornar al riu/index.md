@@ -19,6 +19,8 @@ The project brings together archival photographs and contemporary images, explor
 _Tornar al riu_ inhabits this unstable space, seeking the portrait of a city between what the archive has retained and what continues, despite everything, to flow.
 
 
+\.
+\.
 
 
 
